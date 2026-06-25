@@ -1,0 +1,1436 @@
+[
+  {
+    "id": 1500,
+    "feedback": "The OTT bundle with my recharge plan is amazing. I get Netflix, Prime, and Disney Plus all included in my 599 plan which would otherwise cost me over 1000 rupees separately. The value for money on this combination is unbeatable in the current market.",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "recharge_plans": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1501,
+    "feedback": "OTT bundles are useless. Only gives basic plans with limited content.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1502,
+    "feedback": "plz add more ott options to ur reacharg plans. only netflix and prime is not enough. we want spotify and youtube premium too for the price we pay",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1503,
+    "feedback": "Recharge plans offer standard variety. Typical options for every budget.",
+    "aspects": [
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1504,
+    "feedback": "The value for money on the annual plan is exceptional when you factor in the included OTT subscriptions. I calculated my total entertainment spend before and after switching to this plan and I am saving nearly 4000 rupees annually while getting better data and call benefits too.",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "positive",
+      "recharge_plans": "positive",
+      "ott_bundle_services": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1505,
+    "feedback": "Recharge plan pricing is standard. Market rates nothing remarkable.",
+    "aspects": [
+      "recharge_plans",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral",
+      "pricing": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1506,
+    "feedback": "omg worst value for money ever. paying 499 monthly and the ott bundle only includes mobile-only plans that u cant watch on tv. what a joke",
+    "aspects": [
+      "value_for_money",
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "negative",
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1507,
+    "feedback": "I switched specifically for the OTT bundle and I have not been disappointed. The streaming quality is excellent because the internet speed on this plan supports 4K content effortlessly. Previously I was paying separately for each service so this consolidation makes perfect financial sense.",
+    "aspects": [
+      "ott_bundle_services",
+      "internet_speed",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "internet_speed": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1508,
+    "feedback": "OTT bundle included is decent. Standard streaming access.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1509,
+    "feedback": "cant blv they removed hotstar from the ott bundle without telling anyone. was the main reason i chose this reacharg plan. feel cheated now. v bad decision",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1510,
+    "feedback": "The 299 recharge plan with 28 days validity and included OTT access is genuinely good value. I get 2GB daily data, unlimited calls, and access to two major streaming platforms. For a budget-conscious user like me this covers all my entertainment and communication needs perfectly.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "value_for_money",
+      "data_validity"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "ott_bundle_services": "positive",
+      "value_for_money": "positive",
+      "data_validity": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1511,
+    "feedback": "Value for money is acceptable on the mid-range plans. Fair deal.",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral",
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1512,
+    "feedback": "The OTT subscriptions bundled with the plan expire separately from the recharge validity which is extremely confusing. My recharge is valid for 84 days but the Netflix subscription renews every 30 days and sometimes just stops working mid-cycle with no warning or notification.",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "data_validity"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative",
+      "data_validity": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1513,
+    "feedback": "Recharge plan with OTT is fine. Average offering for the price.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral",
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1514,
+    "feedback": "ngl the ott bundle makes this plan worth it. getting prime and netflix free with my recharge saves me like 500 bucks a month. solid value for money",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "recharge_plans": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1515,
+    "feedback": "The recharge plans have become progressively worse over the last year. Less data, shorter validity, fewer OTT benefits but the same or higher price. The value for money has completely eroded and I am seriously considering switching to a competitor that still offers reasonable packages.",
+    "aspects": [
+      "recharge_plans",
+      "data_validity",
+      "ott_bundle_services",
+      "value_for_money",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "data_validity": "negative",
+      "ott_bundle_services": "negative",
+      "value_for_money": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1516,
+    "feedback": "Recharge plan benefits are average for what I pay monthly. Standard deal.",
+    "aspects": [
+      "recharge_plans",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral",
+      "value_for_money": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1517,
+    "feedback": "tbh ok ott bundle. has the basics covered but nothing that makes me excited. would be nice to have more premium options at higher price points",
+    "aspects": [
+      "ott_bundle_services",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral",
+      "pricing": "neutral"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1518,
+    "feedback": "Fantastic value for money on the family plan. Four connections with shared OTT access and generous data limits for everyone. The combined billing makes household budget management straightforward. We tried individual plans before and this saves us nearly 40 percent overall.",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans",
+      "ott_bundle_services",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "positive",
+      "recharge_plans": "positive",
+      "ott_bundle_services": "positive",
+      "billing": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1519,
+    "feedback": "OTT bundle activation through the app works. Standard process.",
+    "aspects": [
+      "ott_bundle_services",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral",
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1520,
+    "feedback": "ur reacharg plans are overpriced. competitors give same data + more ott apps for 100 rupees less. where is the value for money. losing custmers because of greed",
+    "aspects": [
+      "recharge_plans",
+      "pricing",
+      "ott_bundle_services",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "pricing": "negative",
+      "ott_bundle_services": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1521,
+    "feedback": "The OTT bundle is a great differentiator for this carrier. I was going to switch but the included streaming subscriptions tipped the value proposition in their favor. Combined with decent internet speed and reliable coverage it becomes a compelling overall package.",
+    "aspects": [
+      "ott_bundle_services",
+      "value_for_money",
+      "internet_speed",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "value_for_money": "positive",
+      "internet_speed": "positive",
+      "network_coverage": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1522,
+    "feedback": "Recharge plan variety is adequate. Covers basic to premium needs.",
+    "aspects": [
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1523,
+    "feedback": "prblm with ott bundle is that it only works on one device. cant share the netflix login with family even though its supposed to be a family plan. misleading marketing and poor value for money",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1524,
+    "feedback": "Very good value for money. OTT subscriptions alone justify the plan cost.",
+    "aspects": [
+      "value_for_money",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "positive",
+      "ott_bundle_services": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1525,
+    "feedback": "The 799 recharge plan is the sweet spot for me. It offers 3GB daily data for 56 days with Netflix, Prime, and Hotstar included. The OTT content alone would cost me more than the plan price so effectively I am getting free data and calls on top. Outstanding value proposition.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "value_for_money",
+      "data_validity"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "ott_bundle_services": "positive",
+      "value_for_money": "positive",
+      "data_validity": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1526,
+    "feedback": "Value for money has dropped since last year. Plans give less now.",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1527,
+    "feedback": "omg they downgraded the ott bundle on my plan without any notice. used to have 5 apps now only 3. same price fewer benefits. custmer care says its a policy change. terrible treatment of loyal users",
+    "aspects": [
+      "ott_bundle_services",
+      "pricing",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "pricing": "negative",
+      "customer_support": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1528,
+    "feedback": "The recharge plans are well-structured and easy to compare through the app. I can see exactly what each tier offers in terms of data, validity, and OTT access. This transparency helps me pick the right plan for my needs without confusion or regret after purchase.",
+    "aspects": [
+      "recharge_plans",
+      "mobile_app_experience",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "mobile_app_experience": "positive",
+      "ott_bundle_services": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1529,
+    "feedback": "OTT bundle works as expected. Standard streaming quality on mobile.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1530,
+    "feedback": "v bad value for money on the basic plans. no ott bundle no decent data. only premium plans above 499 get anything worthwhile. feels like they dont care about budget custmers at all",
+    "aspects": [
+      "value_for_money",
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "negative",
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1531,
+    "feedback": "Love the OTT bundle. Netflix included with my plan saves me money every month. The streaming quality is consistently good thanks to the fast internet speed on this network. My family uses it daily for movies and shows and we have never faced any buffering issues.",
+    "aspects": [
+      "ott_bundle_services",
+      "value_for_money",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "value_for_money": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1532,
+    "feedback": "Recharge plans could offer more data for the price charged.",
+    "aspects": [
+      "recharge_plans",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1533,
+    "feedback": "The OTT bundle only gives mobile-only plans which means I cannot cast content to my television. For a family recharge plan costing 799 rupees this limitation is unacceptable. Other carriers at the same price point include full screen access. Very poor value for money.",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "value_for_money",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative",
+      "value_for_money": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1534,
+    "feedback": "Recharge options are okay. Satisfactory for average users.",
+    "aspects": [
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1535,
+    "feedback": "plz add jio cinema to the ott bundle. everyone has it except u guys. the current bundle feels incomplete without a sports streaming option. would make the plan much better value",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1536,
+    "feedback": "I appreciate that the recharge plans clearly state which OTT services are included before purchase. The app shows a comparison view that makes it easy to decide. Value for money improves significantly on the quarterly plans compared to monthly ones. Smart to commit longer.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "mobile_app_experience",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "ott_bundle_services": "positive",
+      "mobile_app_experience": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1537,
+    "feedback": "Value for money on budget plans is poor. Barely any benefits.",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1538,
+    "feedback": "ngl disappointed that they removed the music streaming app from the ott bundle. was one of the main reasons i stayed. now just video apps remain which i barely use. lost a loyal custmer soon",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1539,
+    "feedback": "Recharge plan with OTT is good value. Renewed happily this quarter.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "ott_bundle_services": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1540,
+    "feedback": "The OTT bundle login process is cumbersome and breaks frequently. Every time my recharge renews I have to re-authenticate on all streaming apps manually. This should be automatic and seamless. The value is there but the user experience around activating it needs serious work.",
+    "aspects": [
+      "ott_bundle_services",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1541,
+    "feedback": "Average value for money. Plans sit in line with market norms.",
+    "aspects": [
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1542,
+    "feedback": "intrenet speed is great and the ott bundle makes the plan worth every rupee. streaming in hd without any buffering even during peak hours. best reacharg plan i have used from any carrier honestly",
+    "aspects": [
+      "internet_speed",
+      "ott_bundle_services",
+      "recharge_plans",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "internet_speed": "positive",
+      "ott_bundle_services": "positive",
+      "recharge_plans": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1543,
+    "feedback": "OTT content quality in the bundle is basic tier. Not premium access.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1544,
+    "feedback": "The recharge plans need a revamp. The current structure is outdated and does not reflect how people actually consume content and data today. Most users want high data limits with good OTT access rather than unlimited calls which are barely used anymore.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "ott_bundle_services": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1545,
+    "feedback": "Value for money with bundled OTT is average. Standard market offering.",
+    "aspects": [
+      "value_for_money",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral",
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1546,
+    "feedback": "ur ott bundle is basically useless. gives mobile only plans that r unwatchable on anything bigger than a phone screen. for 599 plan at least give us proper tv access. other carriers do",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1547,
+    "feedback": "The value for money analysis clearly favors the 84-day plans over monthly ones. When you break it down per day the longer validity plans include better OTT bundles and more daily data at a lower effective cost. I always advise friends to go for quarterly minimum.",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans",
+      "data_validity",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "positive",
+      "recharge_plans": "positive",
+      "data_validity": "positive",
+      "ott_bundle_services": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1548,
+    "feedback": "Recharge plan is adequate for basic usage. Standard offering.",
+    "aspects": [
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1549,
+    "feedback": "tbh the value for money depends on which plan you pick. lower plans have zero ott and poor data. but the 599 and above are genuinely competitive with good streaming access and enough data",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral",
+      "recharge_plans": "neutral",
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1550,
+    "feedback": "Switched to this carrier for the OTT bundles and the overall value for money is impressive. My previous carrier charged similar rates but included nothing beyond basic data and calls. Here I get Netflix and Prime at no extra cost which completely justifies the monthly spend.",
+    "aspects": [
+      "ott_bundle_services",
+      "value_for_money",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "value_for_money": "positive",
+      "recharge_plans": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1551,
+    "feedback": "OTT bundle variety is limited compared to competitors.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1552,
+    "feedback": "The recharge plan comparison feature in the app is helpful for identifying the best value option. I can filter by OTT bundles included and sort by price per day. This kind of tool empowers customers to make informed choices rather than defaulting to whatever is promoted.",
+    "aspects": [
+      "recharge_plans",
+      "mobile_app_experience",
+      "ott_bundle_services",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "mobile_app_experience": "positive",
+      "ott_bundle_services": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1553,
+    "feedback": "Value for money is neutral on this carrier. Neither great nor terrible.",
+    "aspects": [
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1554,
+    "feedback": "prblm with ott bundle is the quality. netflix only gives 480p mobile plan which looks terrible even on a large phone screen. for a plan costing 499 they should at least give hd access. not value for money at all",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1555,
+    "feedback": "Recharge plan I chose is adequate. Gets the job done.",
+    "aspects": [
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1556,
+    "feedback": "The OTT bundle adds genuine value to an already competitive recharge plan. I was subscribing to three streaming services independently before and now they are all covered under my mobile plan. The savings are real and the convenience of single billing makes life simpler.",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "value_for_money",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "recharge_plans": "positive",
+      "value_for_money": "positive",
+      "billing": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1557,
+    "feedback": "Recharge plan validity is too short for the price. Bad deal overall.",
+    "aspects": [
+      "recharge_plans",
+      "data_validity",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "data_validity": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1558,
+    "feedback": "cant blv they call this value for money. 399 plan gives 1.5gb data and the ott bundle only has one app. competitors give 2gb plus 3 apps at same price. switching next month for sure",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "negative",
+      "recharge_plans": "negative",
+      "ott_bundle_services": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1559,
+    "feedback": "OTT bundle included in my plan is standard. Covers basic streaming.",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral",
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1560,
+    "feedback": "I specifically chose this carrier because of the included OTT services and I must say the integration is seamless. One-tap activation from the telecom app opens Netflix directly with my credentials already populated. This frictionless experience adds genuine value beyond just the content itself.",
+    "aspects": [
+      "ott_bundle_services",
+      "mobile_app_experience",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "mobile_app_experience": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1561,
+    "feedback": "Recharge plans are standard. Nothing stands out positively or negatively.",
+    "aspects": [
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1562,
+    "feedback": "plz bring back the old 499 plan with full ott access. the new plan at same price has fewer benefits and shorter validity. loyal custmers are being punished for staying. where is the value",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "value_for_money",
+      "data_validity"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "ott_bundle_services": "negative",
+      "value_for_money": "negative",
+      "data_validity": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1563,
+    "feedback": "The value for money on premium plans is genuinely excellent. The 999 monthly plan gives unlimited 5G data with full OTT access including premium tiers of Netflix and Prime. Call quality and network coverage are both superb at this tier. Worth every rupee for heavy users.",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans",
+      "5g_experience",
+      "ott_bundle_services",
+      "call_quality",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "positive",
+      "recharge_plans": "positive",
+      "5g_experience": "positive",
+      "ott_bundle_services": "positive",
+      "call_quality": "positive",
+      "network_coverage": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1564,
+    "feedback": "OTT bundle is standard. Same as what everyone offers now.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1565,
+    "feedback": "ngl the recharge plans have gotten worse since last year. they keep cutting benefits while prices stay same or go up. ott bundle is smaller now too. losing the value for money edge they had",
+    "aspects": [
+      "recharge_plans",
+      "pricing",
+      "ott_bundle_services",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "pricing": "negative",
+      "ott_bundle_services": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1566,
+    "feedback": "Value for money is acceptable. OTT access is standard for this price range.",
+    "aspects": [
+      "value_for_money",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral",
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1567,
+    "feedback": "My family of four uses the shared plan which includes separate OTT profiles for each member. The value for money is remarkable because individually these subscriptions would cost us triple. Data allocation is generous and the billing is consolidated and clear.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "value_for_money",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "ott_bundle_services": "positive",
+      "value_for_money": "positive",
+      "billing": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1568,
+    "feedback": "OTT access keeps logging me out. Very annoying bug in the system.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1569,
+    "feedback": "The recharge plan pricing is transparent and I always know what I am getting before I pay. The included OTT services are clearly listed and the data validity is prominently displayed. No hidden conditions or asterisks. This straightforward approach builds customer trust.",
+    "aspects": [
+      "recharge_plans",
+      "pricing",
+      "ott_bundle_services",
+      "data_validity"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "pricing": "positive",
+      "ott_bundle_services": "positive",
+      "data_validity": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1570,
+    "feedback": "Value for money is debatable. Depends on how much OTT you use.",
+    "aspects": [
+      "value_for_money",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral",
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1571,
+    "feedback": "intrenet speed is too slow to actually stream anything from the ott bundle properly. whats the point of including netflix if the data speed cant handle even standard definition. false advertising on the reacharg plan",
+    "aspects": [
+      "internet_speed",
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "internet_speed": "negative",
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1572,
+    "feedback": "Recharge plan is reasonably priced. Standard market offering.",
+    "aspects": [
+      "recharge_plans",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral",
+      "pricing": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1573,
+    "feedback": "The OTT bundle on the quarterly plan is the best in the market right now. Five major streaming platforms included with HD quality access. Combined with 2.5GB daily data and strong network coverage this plan delivers exceptional value that justifies the 899 rupee price tag.",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans",
+      "internet_speed",
+      "network_coverage",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "recharge_plans": "positive",
+      "internet_speed": "positive",
+      "network_coverage": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1574,
+    "feedback": "Average recharge plan. OTT bundle is basic but functional.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral",
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1575,
+    "feedback": "omg cant blv how bad the value for money has become. same plan that was 299 last year is now 349 with fewer ott apps and less data. they think we wont notice but we do. terrible strategy",
+    "aspects": [
+      "value_for_money",
+      "pricing",
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "negative",
+      "pricing": "negative",
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1576,
+    "feedback": "OTT content variety in the premium plan is adequate. Covers major apps.",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral",
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1577,
+    "feedback": "Recharge plans need more flexibility. One size does not fit all users and the current rigid tier structure forces people to pay for features they do not need. I want high data but no OTT bundle yet there is no such option. Customizable plans would offer real value.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "ott_bundle_services": "neutral",
+      "value_for_money": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1578,
+    "feedback": "Value for the price is standard. Streaming services are a basic inclusion now.",
+    "aspects": [
+      "value_for_money",
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral",
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1579,
+    "feedback": "The OTT bundle stopped working after my last recharge even though the plan clearly includes it. Customer support says I need to re-activate manually through the app. Why is this not automatic? The process is unnecessarily complicated and wastes customer time every single cycle.",
+    "aspects": [
+      "ott_bundle_services",
+      "customer_support",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "customer_support": "negative",
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1580,
+    "feedback": "Decent value for money. Plans are reasonably competitive in the market.",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral",
+      "recharge_plans": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1581,
+    "feedback": "custmer care helped me find the best value plan with all the ott apps i wanted. she compared three options and explained which one gave the most for my budget. appreciated the honest recommendation",
+    "aspects": [
+      "customer_support",
+      "value_for_money",
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "customer_support": "positive",
+      "value_for_money": "positive",
+      "ott_bundle_services": "positive",
+      "recharge_plans": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1582,
+    "feedback": "OTT bundle is adequate. Has the popular streaming services covered.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1583,
+    "feedback": "The value for money proposition completely falls apart on the basic plans below 299. No OTT access, minimal data, short validity. It feels like they deliberately cripple the lower tiers to push people toward expensive plans. Budget users deserve decent value too.",
+    "aspects": [
+      "value_for_money",
+      "ott_bundle_services",
+      "recharge_plans",
+      "data_validity"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "negative",
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative",
+      "data_validity": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1584,
+    "feedback": "Good plan with OTT included. Worth the monthly investment.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "ott_bundle_services": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1585,
+    "feedback": "tbh ok recharge plans. the ott bundle is a nice touch but nothing that makes me feel like im getting an incredible deal. its standard for the industry now so not really a differentiator anymore",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "neutral",
+      "ott_bundle_services": "neutral",
+      "value_for_money": "neutral"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1586,
+    "feedback": "Exceptional value on the annual recharge plan. OTT subscriptions, unlimited data on 5G, and free roaming in select countries all included. When I calculate the per-day cost it comes to less than 10 rupees. This kind of bundling makes it impossible to justify buying anything separately.",
+    "aspects": [
+      "value_for_money",
+      "recharge_plans",
+      "ott_bundle_services",
+      "5g_experience",
+      "roaming"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "positive",
+      "recharge_plans": "positive",
+      "ott_bundle_services": "positive",
+      "5g_experience": "positive",
+      "roaming": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1587,
+    "feedback": "Recharge plan benefits are mediocre at best for the price point.",
+    "aspects": [
+      "recharge_plans",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1588,
+    "feedback": "The OTT bundle integration with the carrier app needs work. Half the time clicking on a streaming service from within the app opens a blank page or throws an error. When it works it is great but the reliability is not where it should be for a core feature.",
+    "aspects": [
+      "ott_bundle_services",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1589,
+    "feedback": "Value for money is acceptable on this plan. Standard.",
+    "aspects": [
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1590,
+    "feedback": "plz give us the option to choose which ott apps we want in our bundle. i dont use prime but would love youtube premium instead. customizable bundles would be much better value for different types of users",
+    "aspects": [
+      "ott_bundle_services",
+      "value_for_money",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "value_for_money": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1591,
+    "feedback": "OTT bundle and data allocation together make this plan worthwhile. I stream daily for at least two hours and still have data remaining at the end of the month. The video quality is consistently good which means the internet speed holds up well even during evening peak hours.",
+    "aspects": [
+      "ott_bundle_services",
+      "data_balance",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "data_balance": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1592,
+    "feedback": "Recharge plan is overpriced for the OTT quality provided. Not HD.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "ott_bundle_services": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1593,
+    "feedback": "The value for money calculation clearly favors this carrier when you include the OTT bundle worth. I was paying 199 for Netflix, 179 for Prime, and 299 for Hotstar separately. Now all three are included in my 799 recharge plan along with 3GB daily data. The math speaks for itself.",
+    "aspects": [
+      "value_for_money",
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "positive",
+      "ott_bundle_services": "positive",
+      "recharge_plans": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1594,
+    "feedback": "Standard OTT bundle. Works as advertised nothing more.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1595,
+    "feedback": "v bad that the ott bundle doesnt carry over if u recharge a day late. missed my renewal by one day and lost all my streaming access. had to reactivate everything manually. punishing custmers for small delays is not ok",
+    "aspects": [
+      "ott_bundle_services",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1596,
+    "feedback": "Really good recharge plan with excellent value. The OTT bundle is comprehensive and the data allocation is generous for the price. Combined with reliable network coverage and clear call quality this represents everything I need from a mobile carrier in one package.",
+    "aspects": [
+      "recharge_plans",
+      "value_for_money",
+      "ott_bundle_services",
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "positive",
+      "value_for_money": "positive",
+      "ott_bundle_services": "positive",
+      "network_coverage": "positive",
+      "call_quality": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1597,
+    "feedback": "OTT benefits are okay. Could include more platforms.",
+    "aspects": [
+      "ott_bundle_services"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1598,
+    "feedback": "The recharge plan structure is confusing with too many tiers that differ only slightly in OTT access and data limits. They should simplify to three or four clear options. Currently it takes research to figure out which plan gives the best value for money.",
+    "aspects": [
+      "recharge_plans",
+      "ott_bundle_services",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "ott_bundle_services": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1599,
+    "feedback": "Happy with the overall value I receive from this carrier. The combination of fast internet, good OTT access, and competitive pricing makes it easy to stay loyal. The recharge plans keep improving incrementally and the billing is always transparent. Solid carrier.",
+    "aspects": [
+      "value_for_money",
+      "internet_speed",
+      "ott_bundle_services",
+      "pricing",
+      "recharge_plans",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "positive",
+      "internet_speed": "positive",
+      "ott_bundle_services": "positive",
+      "pricing": "positive",
+      "recharge_plans": "positive",
+      "billing": "positive"
+    },
+    "source_channel": "app_review"
+  }
+]

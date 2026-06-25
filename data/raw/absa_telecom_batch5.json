@@ -1,0 +1,1286 @@
+[
+  {
+    "id": 1400,
+    "feedback": "SIM activation was incredibly smooth. I ordered online and the SIM was active within two hours of delivery. The entire process from document submission to OTP verification was seamless and well-guided through the app. No store visit required which saved me a lot of time.",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1401,
+    "feedback": "Roaming charges are absolutely ridiculous. I traveled to Thailand for a week and came back to a bill of 3000 rupees for minimal data usage. The roaming packs they offer are confusing and the auto-activation never worked despite me selecting it before departure.",
+    "aspects": [
+      "roaming",
+      "billing",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "billing": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1402,
+    "feedback": "plz fix ur mobile app. keeps crashing every time i try to check my balance or reacharg. very frustrating experience on android",
+    "aspects": [
+      "mobile_app_experience",
+      "data_balance"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative",
+      "data_balance": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1403,
+    "feedback": "SIM activation took 5 days. Way too slow for modern standards.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1404,
+    "feedback": "The mobile app experience has been excellent since the recent update. The interface is clean and intuitive and I can manage everything from recharges to plan changes without any issues. Loading times are minimal and the data balance widget on the home screen is particularly useful.",
+    "aspects": [
+      "mobile_app_experience",
+      "recharge_plans",
+      "data_balance"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "recharge_plans": "positive",
+      "data_balance": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1405,
+    "feedback": "Roaming worked in Singapore. Standard connectivity nothing special.",
+    "aspects": [
+      "roaming"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1406,
+    "feedback": "omg worst sim activation experience ever. submitted docs 4 days ago still not activated. custmer care says wait 24 more hours every time i call",
+    "aspects": [
+      "sim_activation",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative",
+      "customer_support": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1407,
+    "feedback": "The roaming experience in Europe was seamless. I activated the international pack through the app before my flight and the moment I landed the network connected automatically. Data speeds were reasonable for browsing and maps and I never lost connectivity across three countries.",
+    "aspects": [
+      "roaming",
+      "mobile_app_experience",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "roaming": "positive",
+      "mobile_app_experience": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1408,
+    "feedback": "Mobile app is decent. Does the basic job without issues.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1409,
+    "feedback": "cant blv how long sim activation takes with this carrier. been waiting 3 days and still showing inactive. other providers do it in 2 hours. v bad process",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1410,
+    "feedback": "The mobile app makes it very easy to activate roaming packs before travel. I just selected my destination country and it recommended the best pack for my trip duration. Activated in one tap and got confirmation immediately. Excellent user experience for international travelers.",
+    "aspects": [
+      "mobile_app_experience",
+      "roaming"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "roaming": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1411,
+    "feedback": "SIM activation was quick and hassle-free. Done in under an hour.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1412,
+    "feedback": "The roaming charges hit me unexpectedly because the app did not clearly show what was included in my pack versus what would be charged extra. I ended up using data thinking it was covered but got billed separately. The mobile app needs much better transparency for roaming details.",
+    "aspects": [
+      "roaming",
+      "mobile_app_experience",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "mobile_app_experience": "negative",
+      "billing": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1413,
+    "feedback": "App UI got updated recently. Looks fine. Average experience overall.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1414,
+    "feedback": "ngl the sim activation process was painless. uploaded my aadhaar through the app and got the video KYC done in 5 minutes. SIM was active by evening same day",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1415,
+    "feedback": "Roaming did not work at all in my destination country despite activating the international pack beforehand. I had zero connectivity for two days until I found WiFi and contacted support. They said it was a provisioning error on their end. Completely ruined the first half of my business trip.",
+    "aspects": [
+      "roaming",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "customer_support": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1416,
+    "feedback": "Mobile app loads at normal speed. Standard navigation. Nothing exceptional.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1417,
+    "feedback": "tbh ok roaming experience. worked in some countries but not others. coverage was patchy in southeast asia but fine in middle east",
+    "aspects": [
+      "roaming",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral",
+      "network_coverage": "neutral"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1418,
+    "feedback": "I ordered a new SIM with number portability and the entire activation process took exactly 3 days as promised. The app kept me updated with status notifications at each step which made the waiting much less stressful. Great transparency in the process.",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1419,
+    "feedback": "Roaming packs are reasonably priced. Good options for travelers.",
+    "aspects": [
+      "roaming",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "roaming": "positive",
+      "pricing": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1420,
+    "feedback": "prblm with the mobile app since last update. keeps logging me out and the reacharg page doesnt load. had to use website instead which is also slow",
+    "aspects": [
+      "mobile_app_experience",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1421,
+    "feedback": "The eSIM activation process was incredibly modern and quick. Scanned the QR code from the email and within ten minutes my phone was connected to the network. No physical store visit no waiting for delivery. This is exactly how telecom should work in the digital age.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1422,
+    "feedback": "Mobile app experience is average. Nothing special or broken.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1423,
+    "feedback": "ur roaming pack didnt activate even though i paid for it through the app. no data no calls nothing worked abroad. had to buy local sim. total waste of money",
+    "aspects": [
+      "roaming",
+      "mobile_app_experience",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "mobile_app_experience": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1424,
+    "feedback": "SIM activation process is straightforward. No hassles encountered.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1425,
+    "feedback": "The mobile app has a great feature that shows real-time roaming usage and remaining balance in the international pack. This helped me manage my data consumption abroad without fear of bill shock. The interface clearly separates domestic and roaming usage which is thoughtful design.",
+    "aspects": [
+      "mobile_app_experience",
+      "roaming",
+      "data_balance"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "roaming": "positive",
+      "data_balance": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1426,
+    "feedback": "Roaming charges are too high even with the pack activated.",
+    "aspects": [
+      "roaming",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1427,
+    "feedback": "SIM activation was a nightmare. The video KYC kept failing due to their app crashing midway and I had to attempt it six times before it finally went through. The custmer support was unhelpful saying just try again. Wasted an entire afternoon on this",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative",
+      "mobile_app_experience": "negative",
+      "customer_support": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1428,
+    "feedback": "Roaming experience in Dubai was average. Internet worked decently enough.",
+    "aspects": [
+      "roaming",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral",
+      "internet_speed": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1429,
+    "feedback": "The mobile app notification system is excellent. It alerts me before my data runs out, reminds me about upcoming recharge dates, and even notified me about a network maintenance window in my area. Very well implemented push notification strategy.",
+    "aspects": [
+      "mobile_app_experience",
+      "data_balance",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "data_balance": "positive",
+      "network_coverage": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1430,
+    "feedback": "SIM took too long to activate. Lost three days of productivity.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1431,
+    "feedback": "v bad app experience. cant even login half the time. the otp never arrives and when it does the session already expired. how is this acceptable from a major telecom company",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1432,
+    "feedback": "Roaming in the US was excellent on this carrier. I had consistent 4G speeds across multiple states and the daily pack at 499 rupees gave me enough data for maps navigation and video calls. The app tracked my usage in real-time which helped me avoid overcharges.",
+    "aspects": [
+      "roaming",
+      "internet_speed",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "roaming": "positive",
+      "internet_speed": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1433,
+    "feedback": "App crashes frequently on older phones. Needs optimization.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1434,
+    "feedback": "omg the sim activation prblm is ridiculous. ordered a week ago and still not working. called custmer care 3 times and each time they say different things. worst onboarding experience ever",
+    "aspects": [
+      "sim_activation",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative",
+      "customer_support": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1435,
+    "feedback": "The app makes it easy to manage my account on the go. I particularly like the plan comparison feature that shows exactly what each recharge offers side by side. The design is intuitive enough that even my parents can navigate it without calling me for help.",
+    "aspects": [
+      "mobile_app_experience",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "recharge_plans": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1436,
+    "feedback": "Roaming experience is neither good nor bad. Just standard service.",
+    "aspects": [
+      "roaming"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1437,
+    "feedback": "plz improve the sim activation timeline. 4 days is unacceptable when competitors are doing instant activation through eKYC. we r in 2024 not 2010",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1438,
+    "feedback": "Mobile app experience is solid across all features I use regularly. The recharge flow is quick, the billing section is transparent, and the customer support chat integration works without leaving the app. Everything feels cohesive and well thought through.",
+    "aspects": [
+      "mobile_app_experience",
+      "recharge_plans",
+      "billing",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "recharge_plans": "positive",
+      "billing": "positive",
+      "customer_support": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1439,
+    "feedback": "SIM activation process is acceptable. Standard 48 hour timeline.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1440,
+    "feedback": "ngl the roaming packs are confusing. so many options and none clearly explain what happens after the pack data is exhausted. got charged 800 rupees extra on my trip because of this unclear policy",
+    "aspects": [
+      "roaming",
+      "pricing",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "pricing": "negative",
+      "billing": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1441,
+    "feedback": "Mobile app works. Clean design but nothing groundbreaking.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1442,
+    "feedback": "I activated a new SIM for my mother through the app and the entire process was smooth from start to finish. Document upload worked on first try, video KYC was completed in under three minutes, and the SIM was active by the same evening. Impressive turnaround.",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1443,
+    "feedback": "Roaming data speed is pathetically slow. Barely usable abroad.",
+    "aspects": [
+      "roaming",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "internet_speed": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1444,
+    "feedback": "intrenet speed in the app keeps showing wrong readings. actual speed test gives 50mbps but app shows 10mbps. confusing and unreliable speed test feature",
+    "aspects": [
+      "mobile_app_experience",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative",
+      "internet_speed": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1445,
+    "feedback": "The roaming service worked perfectly across my entire two-week business trip covering four Asian countries. Network switching between partner carriers was automatic and the speed remained acceptable for email and video calls throughout. Very impressed with the seamless connectivity.",
+    "aspects": [
+      "roaming",
+      "network_coverage",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "roaming": "positive",
+      "network_coverage": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1446,
+    "feedback": "SIM activation was normal. Standard process nothing remarkable.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1447,
+    "feedback": "The mobile app keeps sending spam notifications about offers I have no interest in. There is no way to disable promotional alerts without also turning off important service notifications. This is poor UX design and makes me want to uninstall the app entirely.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1448,
+    "feedback": "Roaming pack pricing is average. Neither cheap nor expensive.",
+    "aspects": [
+      "roaming",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral",
+      "pricing": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1449,
+    "feedback": "ur app is so buggy cant even complete a reacharg without it freezing. lost money twice because transaction failed but amount got debited. worst mobile app experience in telecom",
+    "aspects": [
+      "mobile_app_experience",
+      "recharge_plans",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative",
+      "recharge_plans": "negative",
+      "billing": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1450,
+    "feedback": "SIM activation happened within the expected time. Normal process.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1451,
+    "feedback": "The app provides comprehensive roaming information for every country including partner networks, expected speeds, and pricing breakdowns. This transparency helped me plan my international trip budget accurately. I knew exactly what to expect before landing and there were zero surprises on the bill.",
+    "aspects": [
+      "mobile_app_experience",
+      "roaming",
+      "pricing",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "roaming": "positive",
+      "pricing": "positive",
+      "billing": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1452,
+    "feedback": "SIM activation failed twice due to document rejection. Very picky system.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1453,
+    "feedback": "tbh the mobile app is just okay. nothing groundbreaking compared to what other carriers offer. does the basics fine but the UI feels dated and slow on my phone",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1454,
+    "feedback": "Roaming service was terrible in Japan. Despite having an active international pack my phone showed no service for entire days. Had to manually select networks which is something I should not need to do on a premium plan. Customer support could not help remotely.",
+    "aspects": [
+      "roaming",
+      "customer_support",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "customer_support": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1455,
+    "feedback": "App works fine for checking balance and recharging. Standard stuff.",
+    "aspects": [
+      "mobile_app_experience",
+      "data_balance"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral",
+      "data_balance": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1456,
+    "feedback": "Excellent SIM activation experience through the store. Staff was helpful and the entire process from document verification to activation was completed in under thirty minutes while I waited. They even helped me transfer contacts from my old SIM. Outstanding service.",
+    "aspects": [
+      "sim_activation",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "customer_support": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1457,
+    "feedback": "Mobile app drains battery in the background. Very poorly optimized.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1458,
+    "feedback": "plz add more roaming pack options for african countries. currently only expensive daily packs available. need weekly or monthly options for long business trips to nigeria and kenya",
+    "aspects": [
+      "roaming",
+      "pricing",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "pricing": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1459,
+    "feedback": "The app dark mode was added. Standard feature these days.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1460,
+    "feedback": "SIM activation through number portability was smoother than I expected. Submitted the request through the app on Monday and by Wednesday morning my number was active on the new network. Got progress updates via SMS throughout the process. Well managed transition.",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1461,
+    "feedback": "Roaming is fine for short trips. Works adequately in popular destinations.",
+    "aspects": [
+      "roaming"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1462,
+    "feedback": "omg the app update broke everything. cant login cant recharge cant even see my plan details. been like this for 2 days now. plz fix immediately this is basic functionality",
+    "aspects": [
+      "mobile_app_experience",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1463,
+    "feedback": "I got an eSIM activation done entirely through the app in under 15 minutes. The QR code generation was instant and the profile downloaded smoothly on my iPhone. No calls no store visits no paperwork. This is how telecom onboarding should work everywhere.",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1464,
+    "feedback": "Roaming data is expensive but the speeds are good when it works.",
+    "aspects": [
+      "roaming",
+      "pricing",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral",
+      "pricing": "negative",
+      "internet_speed": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1465,
+    "feedback": "custmer care told me sim activation would take 24 hrs. its been 72 hrs now and still nothing. no update no callback. the app shows pending status with no explanation. absolutely terrible onboarding for a new custmer",
+    "aspects": [
+      "sim_activation",
+      "customer_support",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative",
+      "customer_support": "negative",
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1466,
+    "feedback": "The mobile app loyalty rewards section is a nice touch. I earned points from recharges and redeemed them for a free data pack. The gamification makes the experience more engaging and gives extra value for money to long-term customers. Clever retention strategy.",
+    "aspects": [
+      "mobile_app_experience",
+      "recharge_plans",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "recharge_plans": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1467,
+    "feedback": "SIM activation is a standard process. Nothing to report good or bad.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1468,
+    "feedback": "Roaming worked perfectly in the Middle East. Call quality was clear and data speeds were sufficient for WhatsApp video calls. The per-day pricing was transparent and there were no hidden charges on my bill when I returned. A worry-free international experience.",
+    "aspects": [
+      "roaming",
+      "call_quality",
+      "internet_speed",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "roaming": "positive",
+      "call_quality": "positive",
+      "internet_speed": "positive",
+      "billing": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1469,
+    "feedback": "App keeps glitching. Recharge button unresponsive on iOS.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1470,
+    "feedback": "ngl the esim activation was super quick and easy. didnt even need to leave my couch. scanned the code and was online in minutes. impressed with how far things have come",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1471,
+    "feedback": "The mobile app does not work on tablets at all. The layout is completely broken and buttons overlap making it impossible to use. For a carrier that promotes digital self-service this is a significant gap. Not everyone manages their account from a phone screen.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1472,
+    "feedback": "Roaming connectivity was adequate throughout my European trip. Standard.",
+    "aspects": [
+      "roaming"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1473,
+    "feedback": "The SIM replacement process was handled well through the app. Reported my lost phone, got the new SIM delivered next day, and the activation happened automatically when I inserted it. The app on my new phone recognized the account instantly. Very smooth recovery process.",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1474,
+    "feedback": "Mobile app is okay. Nothing broken but not impressive either.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1475,
+    "feedback": "intrenet speed while roaming was absolutely terrible. paid 499 per day for speeds that could barely load a text email. complete ripoff and the app showed i had full data remaining so it wasnt a limit issue",
+    "aspects": [
+      "roaming",
+      "internet_speed",
+      "pricing",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "internet_speed": "negative",
+      "pricing": "negative",
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1476,
+    "feedback": "SIM activation at the retail store was standard. Nothing noteworthy.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1477,
+    "feedback": "The app widget shows my remaining data balance and validity at a glance without opening the full app. This small feature saves me time daily and I appreciate the thoughtful design. The overall mobile app experience is among the best I have seen from any Indian carrier.",
+    "aspects": [
+      "mobile_app_experience",
+      "data_balance",
+      "data_validity"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "data_balance": "positive",
+      "data_validity": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1478,
+    "feedback": "SIM activation timeline is reasonable. No strong opinions.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1479,
+    "feedback": "cant blv the roaming charges on my bill. activated pack through app but was charged separately for incoming calls which was never mentioned anywhere. hidden charges everywhere. v bad transparency",
+    "aspects": [
+      "roaming",
+      "billing",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "billing": "negative",
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1480,
+    "feedback": "App for managing telecom account is functional. Adequate features.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1481,
+    "feedback": "I had to get a replacement SIM after my phone was stolen and the activation process was surprisingly quick. The store verified my identity, issued the new SIM, and I was back online within an hour. Data balance and plan were all intact on the new SIM.",
+    "aspects": [
+      "sim_activation",
+      "data_balance",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "data_balance": "positive",
+      "recharge_plans": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1482,
+    "feedback": "Roaming is adequate for most popular travel destinations. Standard.",
+    "aspects": [
+      "roaming"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1483,
+    "feedback": "prblm with app is it doesnt remember my login. every time i open it asks for otp again. very annoying when i just want to quickly check my balance or data validity",
+    "aspects": [
+      "mobile_app_experience",
+      "data_balance"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative",
+      "data_balance": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1484,
+    "feedback": "SIM was activated in expected time. Normal standard process.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1485,
+    "feedback": "The roaming experience was mixed on my last trip. Connectivity in major cities was fine with decent speeds but the moment I moved to rural areas abroad the network dropped completely. For the premium price of the international pack I expected consistent coverage regardless of location.",
+    "aspects": [
+      "roaming",
+      "internet_speed",
+      "network_coverage",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral",
+      "internet_speed": "neutral",
+      "network_coverage": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1486,
+    "feedback": "App is functional. Does what I need for basic account management.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1487,
+    "feedback": "ur sim activation process is stuck in the stone age. 3-5 days when everyone else does it same day. lost a week of usage because of ur slow process. unacceptable in 2024",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1488,
+    "feedback": "The mobile app self-service portal is excellent and has reduced my need to call support completely. I can change plans, check usage, pay bills, and even troubleshoot basic network issues through guided workflows. The UX team clearly put thought into making this a one-stop solution.",
+    "aspects": [
+      "mobile_app_experience",
+      "customer_support",
+      "recharge_plans",
+      "billing"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "customer_support": "positive",
+      "recharge_plans": "positive",
+      "billing": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1489,
+    "feedback": "Roaming packs need more variety for long-term travelers.",
+    "aspects": [
+      "roaming",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "roaming": "negative",
+      "recharge_plans": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1490,
+    "feedback": "tbh ok sim activation experience. not fast not slow. took about 2 days which is average for the industry i guess. nothing to complain but nothing to praise",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "neutral"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1491,
+    "feedback": "The mobile app bill payment history feature is very helpful for tracking my spending over time. I can see month-by-month trends and compare plans I have used previously. This helped me identify that my current plan actually offers poor value compared to what I had before.",
+    "aspects": [
+      "mobile_app_experience",
+      "billing",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "billing": "positive",
+      "value_for_money": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1492,
+    "feedback": "SIM was activated within hours. Very efficient system they have now.",
+    "aspects": [
+      "sim_activation"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1493,
+    "feedback": "The roaming auto-activation feature is a lifesaver for frequent travelers. I set my preferences once in the app and every time I cross borders my international pack activates automatically without me having to do anything manually. Brilliant feature that saves hassle every trip.",
+    "aspects": [
+      "roaming",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "roaming": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1494,
+    "feedback": "Mobile app size is too large. Takes up too much phone storage.",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1495,
+    "feedback": "plz make the app work on older android versions. my phone runs android 9 and the latest update doesnt support it anymore. forcing custmers to buy new phones just to manage their account is wrong",
+    "aspects": [
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1496,
+    "feedback": "SIM activation and porting from my old carrier was handled well. The app guided me through every step including generating the porting code and I received regular status updates. Total time from request to activation was exactly 72 hours as promised. Reliable process.",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "mobile_app_experience": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1497,
+    "feedback": "Roaming works but the speeds are quite slow compared to domestic.",
+    "aspects": [
+      "roaming",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "roaming": "neutral",
+      "internet_speed": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1498,
+    "feedback": "The app recently added a feature to store boarding passes and travel documents alongside roaming pack details. This makes it a one-stop travel companion which is genuinely useful. The integration between travel planning and telecom services is innovative and practical.",
+    "aspects": [
+      "mobile_app_experience",
+      "roaming"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "positive",
+      "roaming": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1499,
+    "feedback": "SIM activation was delayed because of a system error on their end. The app showed my documents were verified but the backend did not process it for two extra days. Only resolved after I contacted support directly. The app status was misleading the whole time.",
+    "aspects": [
+      "sim_activation",
+      "mobile_app_experience",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "negative",
+      "mobile_app_experience": "negative",
+      "customer_support": "neutral"
+    },
+    "source_channel": "complaint_ticket"
+  }
+]

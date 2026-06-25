@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1700,
+    "feedback": "Oh wow, the internet speed is so fast that I managed to load a single webpage in only five minutes. Truly groundbreaking technology from this carrier. I am absolutely thrilled to be paying premium prices for this extraordinary experience every single month.",
+    "aspects": ["internet_speed", "pricing"],
+    "aspect_sentiments": {"internet_speed": "negative", "pricing": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1701,
+    "feedback": "Network works I guess.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1702,
+    "feedback": "plz fix intrenet. so slow cant even open email. paying 499 for this joke of a service. custmer care also useless as usual",
+    "aspects": ["internet_speed", "pricing", "customer_support"],
+    "aspect_sentiments": {"internet_speed": "negative", "pricing": "negative", "customer_support": "negative"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1703,
+    "feedback": "Sure, the call quality is amazing if you enjoy hearing every third word of a conversation. Really makes you appreciate the art of guessing what the other person said. Premium experience for premium pricing.",
+    "aspects": ["call_quality", "pricing"],
+    "aspect_sentiments": {"call_quality": "negative", "pricing": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1704,
+    "feedback": "It exists.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1705,
+    "feedback": "Wonderful 5G experience. If by 5G they mean five minutes to load Google. The marketing promised next-gen speeds but what I actually get is last-gen frustration. At least the billing is accurate so I know exactly how much I overpay each month.",
+    "aspects": ["5g_experience", "internet_speed", "billing"],
+    "aspect_sentiments": {"5g_experience": "negative", "internet_speed": "negative", "billing": "neutral"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1706,
+    "feedback": "Fine.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1707,
+    "feedback": "ngl the network coverage is surprisingly good in my village. didnt expect it from this carrier. call quality is also clear. pleasantly surprised for once",
+    "aspects": ["network_coverage", "call_quality"],
+    "aspect_sentiments": {"network_coverage": "positive", "call_quality": "positive"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1708,
+    "feedback": "Thank you so much for the excellent customer support experience where I was put on hold for 45 minutes only to be told to restart my phone. Truly innovative problem-solving that I could not have thought of myself. Worth every second of the wait.",
+    "aspects": ["customer_support"],
+    "aspect_sentiments": {"customer_support": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1709,
+    "feedback": "Data balance okay.",
+    "aspects": ["data_balance"],
+    "aspect_sentiments": {"data_balance": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1710,
+    "feedback": "The recharge plan is so generous that I get a whole 1GB of data for an entire day. In 2024. How delightfully retro of them. Meanwhile every other carrier offers 2GB minimum at lower prices but sure let me stay here for the nostalgia factor.",
+    "aspects": ["recharge_plans", "pricing", "value_for_money"],
+    "aspect_sentiments": {"recharge_plans": "negative", "pricing": "negative", "value_for_money": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1711,
+    "feedback": "Good enough for calls I suppose. Nothing more nothing less.",
+    "aspects": ["call_quality"],
+    "aspect_sentiments": {"call_quality": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1712,
+    "feedback": "omg the roaming actually worked perfectly in singapore. internet speed was decent and call quality was clear. was expecting disaster based on reviews but had zero issues the whole trip. genuinely happy",
+    "aspects": ["roaming", "internet_speed", "call_quality"],
+    "aspect_sentiments": {"roaming": "positive", "internet_speed": "positive", "call_quality": "positive"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1713,
+    "feedback": "I love how the mobile app crashes right when I need to recharge urgently. The timing is always impeccable. It is like the app knows when I am desperate and chooses that exact moment to stop functioning. Brilliant engineering.",
+    "aspects": ["mobile_app_experience", "recharge_plans"],
+    "aspect_sentiments": {"mobile_app_experience": "negative", "recharge_plans": "negative"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1714,
+    "feedback": "Meh. Works.",
+    "aspects": ["internet_speed"],
+    "aspect_sentiments": {"internet_speed": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1715,
+    "feedback": "Really impressed with how quickly the SIM got activated. I submitted documents through the app at noon and by evening I was on the network making calls. The whole process was digital and effortless. Great first impression of the carrier.",
+    "aspects": ["sim_activation", "mobile_app_experience", "call_quality"],
+    "aspect_sentiments": {"sim_activation": "positive", "mobile_app_experience": "positive", "call_quality": "positive"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1716,
+    "feedback": "Data validity is what it is. Standard 28 days.",
+    "aspects": ["data_validity"],
+    "aspect_sentiments": {"data_validity": "neutral"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1717,
+    "feedback": "The value for money here is extraordinary if you define value as paying more for less every quarter. They have truly mastered the art of reducing benefits while increasing prices. A masterclass in how to lose customer loyalty.",
+    "aspects": ["value_for_money", "pricing", "recharge_plans"],
+    "aspect_sentiments": {"value_for_money": "negative", "pricing": "negative", "recharge_plans": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1718,
+    "feedback": "Acceptable.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1719,
+    "feedback": "cant blv how good the 5g speeds are in my area. consistently above 600mbps. streaming and gaming without any lag. best upgrade decision i made this year",
+    "aspects": ["5g_experience", "internet_speed"],
+    "aspect_sentiments": {"5g_experience": "positive", "internet_speed": "positive"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1720,
+    "feedback": "Oh the OTT bundle is fantastic. You get the basic mobile-only tier of Netflix where everything looks like it was filmed underwater in 480p. Truly the premium streaming experience that justifies the premium plan pricing. What a time to be alive.",
+    "aspects": ["ott_bundle_services", "recharge_plans", "pricing"],
+    "aspect_sentiments": {"ott_bundle_services": "negative", "recharge_plans": "negative", "pricing": "negative"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1721,
+    "feedback": "It does the job. Nothing to say really.",
+    "aspects": ["recharge_plans"],
+    "aspect_sentiments": {"recharge_plans": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1722,
+    "feedback": "Genuinely pleased with the overall experience after switching carriers. Network coverage is strong in all the areas I frequent, call quality is crystal clear, and the pricing feels fair for what I receive. Would happily recommend to friends and family.",
+    "aspects": ["network_coverage", "call_quality", "pricing"],
+    "aspect_sentiments": {"network_coverage": "positive", "call_quality": "positive", "pricing": "positive"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1723,
+    "feedback": "v bad billing this month. charged for stuff i didnt subscribe to. prblm is nobody in custmer care can explain what the charges are for. just generic responses",
+    "aspects": ["billing", "customer_support"],
+    "aspect_sentiments": {"billing": "negative", "customer_support": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1724,
+    "feedback": "I must congratulate the carrier on their incredible data balance system that magically depletes my quota while my phone sits untouched on a shelf. Clearly my data is being consumed by the spirits. Or their accounting system is broken. Either explanation works.",
+    "aspects": ["data_balance"],
+    "aspect_sentiments": {"data_balance": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1725,
+    "feedback": "Okay I suppose.",
+    "aspects": ["internet_speed"],
+    "aspect_sentiments": {"internet_speed": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1726,
+    "feedback": "The annual recharge plan is genuinely excellent value. At 2999 for 365 days with 2GB daily data and full OTT access the per-day cost is unbeatable. Data validity eliminates monthly recharge hassle and billing is just once a year. Strongly recommend.",
+    "aspects": ["recharge_plans", "value_for_money", "ott_bundle_services", "data_validity", "billing"],
+    "aspect_sentiments": {"recharge_plans": "positive", "value_for_money": "positive", "ott_bundle_services": "positive", "data_validity": "positive", "billing": "positive"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1727,
+    "feedback": "Exists. Works sometimes. Does not work other times.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1728,
+    "feedback": "prblm with data balance again. reacharged 2gb plan but only showing 1.5gb. this happens every single time. their system is clearly eating data somewhere. nobody at custmer care believes me",
+    "aspects": ["data_balance", "recharge_plans", "customer_support"],
+    "aspect_sentiments": {"data_balance": "negative", "recharge_plans": "negative", "customer_support": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1729,
+    "feedback": "What a delightful surprise that my SIM activation took only seven days. I was fully prepared to wait a fortnight based on the progress updates the app was providing. Seven days feels like express service by their standards.",
+    "aspects": ["sim_activation", "mobile_app_experience"],
+    "aspect_sentiments": {"sim_activation": "negative", "mobile_app_experience": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1730,
+    "feedback": "Solid internet speed and reliable network coverage across the three cities I regularly travel between. Have been a customer for two years and the consistency is what keeps me here. Call quality is dependable and the pricing is competitive enough.",
+    "aspects": ["internet_speed", "network_coverage", "call_quality", "pricing"],
+    "aspect_sentiments": {"internet_speed": "positive", "network_coverage": "positive", "call_quality": "positive", "pricing": "positive"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1731,
+    "feedback": "Service. That is all.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1732,
+    "feedback": "tbh ok experience overall. not great not terrible. internet works most days, coverage is there, billing seems correct. just very average everything",
+    "aspects": ["internet_speed", "network_coverage", "billing"],
+    "aspect_sentiments": {"internet_speed": "neutral", "network_coverage": "neutral", "billing": "neutral"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1733,
+    "feedback": "The customer support team genuinely resolved my complex billing dispute on the first call. Agent was patient and knowledgeable and credited back the overcharged amount immediately. Also suggested a better recharge plan that saves me money. Exceptional service.",
+    "aspects": ["customer_support", "billing", "recharge_plans"],
+    "aspect_sentiments": {"customer_support": "positive", "billing": "positive", "recharge_plans": "positive"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1734,
+    "feedback": "How nice of them to provide 5G coverage in exactly two spots in the entire city. I just need to stand on the corner of MG Road and 5th Cross to experience the future. Very convenient for all of us who live there permanently on that specific corner.",
+    "aspects": ["5g_experience", "network_coverage"],
+    "aspect_sentiments": {"5g_experience": "negative", "network_coverage": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1735,
+    "feedback": "Passable.",
+    "aspects": ["call_quality"],
+    "aspect_sentiments": {"call_quality": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1736,
+    "feedback": "Happy with the data balance tracking in the app. It updates in real-time and I can set custom alerts before my daily quota runs out. The mobile app experience overall is smooth and intuitive. Makes account management genuinely easy.",
+    "aspects": ["data_balance", "mobile_app_experience"],
+    "aspect_sentiments": {"data_balance": "positive", "mobile_app_experience": "positive"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1737,
+    "feedback": "ur roaming pack is a scam. paid 499 daily and got speeds slower than 2G. cant even load maps properly abroad. what exactly am i paying for. plz explain",
+    "aspects": ["roaming", "internet_speed", "pricing"],
+    "aspect_sentiments": {"roaming": "negative", "internet_speed": "negative", "pricing": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1738,
+    "feedback": "I am truly grateful that the data validity on my plan is a generous 24 days instead of the industry standard 28. Those four fewer days really make me feel like a valued customer who is getting a special deal that nobody else offers. Unique positioning indeed.",
+    "aspects": ["data_validity", "value_for_money"],
+    "aspect_sentiments": {"data_validity": "negative", "value_for_money": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1739,
+    "feedback": "Works for what I need it for. Basic calls go through.",
+    "aspects": ["call_quality", "network_coverage"],
+    "aspect_sentiments": {"call_quality": "neutral", "network_coverage": "neutral"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1740,
+    "feedback": "Excellent 5G speeds in the tech park area. Internet is blazing fast for all my work needs including large file transfers and HD video conferences. The recharge plan at 599 gives me enough data daily and the OTT bundle is a welcome bonus.",
+    "aspects": ["5g_experience", "internet_speed", "recharge_plans", "ott_bundle_services"],
+    "aspect_sentiments": {"5g_experience": "positive", "internet_speed": "positive", "recharge_plans": "positive", "ott_bundle_services": "positive"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1741,
+    "feedback": "Nothing special. It is a phone network.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1742,
+    "feedback": "Oh how I love calling customer support and listening to hold music for half an hour. Really brightens my day. The agent who eventually answered was equally delightful with their complete inability to solve my basic network coverage complaint. Ten out of ten experience.",
+    "aspects": ["customer_support", "network_coverage"],
+    "aspect_sentiments": {"customer_support": "negative", "network_coverage": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1743,
+    "feedback": "Decent.",
+    "aspects": ["internet_speed"],
+    "aspect_sentiments": {"internet_speed": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1744,
+    "feedback": "ngl the customer support agent was actually really helpful this time. fixed my billing issue in 5 mins and even found me a better plan. wish they were all like this. internet speed also improved after she reset something",
+    "aspects": ["customer_support", "billing", "recharge_plans", "internet_speed"],
+    "aspect_sentiments": {"customer_support": "positive", "billing": "positive", "recharge_plans": "positive", "internet_speed": "positive"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1745,
+    "feedback": "Hm. Average.",
+    "aspects": ["value_for_money"],
+    "aspect_sentiments": {"value_for_money": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1746,
+    "feedback": "Brilliant idea to charge roaming rates that would bankrupt a small nation. My one week trip cost me more in roaming charges than the actual flight ticket. The billing statement reads like a ransom note. Absolutely stellar pricing strategy.",
+    "aspects": ["roaming", "pricing", "billing"],
+    "aspect_sentiments": {"roaming": "negative", "pricing": "negative", "billing": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1747,
+    "feedback": "It loads pages. Slowly but it loads them.",
+    "aspects": ["internet_speed"],
+    "aspect_sentiments": {"internet_speed": "negative"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1748,
+    "feedback": "The mobile app finally works well after the latest update. Clean interface, fast loading, and the recharge process is smooth. Data balance widget is accurate and I can manage my OTT subscriptions directly from one place. Good improvement from what it used to be.",
+    "aspects": ["mobile_app_experience", "recharge_plans", "data_balance", "ott_bundle_services"],
+    "aspect_sentiments": {"mobile_app_experience": "positive", "recharge_plans": "positive", "data_balance": "positive", "ott_bundle_services": "positive"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1749,
+    "feedback": "Could be better. Could be worse. It is what it is.",
+    "aspects": ["network_coverage", "call_quality"],
+    "aspect_sentiments": {"network_coverage": "neutral", "call_quality": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1750,
+    "feedback": "intrenet speed has been consistently bad for 3 weeks now. raised complaint twice but no improvement. data balance also seems to drain faster than it should. considering switching if this doesnt get fixed soon",
+    "aspects": ["internet_speed", "customer_support", "data_balance"],
+    "aspect_sentiments": {"internet_speed": "negative", "customer_support": "negative", "data_balance": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1751,
+    "feedback": "How thoughtful of them to schedule network maintenance during peak work hours every single week. Really shows they understand their customers' priorities. The call quality during these windows is a special kind of abstract art that only true connoisseurs can appreciate.",
+    "aspects": ["network_coverage", "call_quality"],
+    "aspect_sentiments": {"network_coverage": "negative", "call_quality": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1752,
+    "feedback": "Good network. Calls work. Data flows. Happy enough.",
+    "aspects": ["network_coverage", "call_quality", "internet_speed"],
+    "aspect_sentiments": {"network_coverage": "positive", "call_quality": "positive", "internet_speed": "positive"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1753,
+    "feedback": "The 5G plan delivers real value for money with fast internet speeds and comprehensive OTT bundle. Network coverage is solid in my metro area and the billing has been flawless for the eight months I have been on this plan. Exactly what was advertised.",
+    "aspects": ["5g_experience", "value_for_money", "internet_speed", "ott_bundle_services", "network_coverage", "billing"],
+    "aspect_sentiments": {"5g_experience": "positive", "value_for_money": "positive", "internet_speed": "positive", "ott_bundle_services": "positive", "network_coverage": "positive", "billing": "positive"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1754,
+    "feedback": "App works. Barely.",
+    "aspects": ["mobile_app_experience"],
+    "aspect_sentiments": {"mobile_app_experience": "neutral"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1755,
+    "feedback": "reacharg plans keep getting worse. less data shorter validity higher price. and they call this improvement. custmer care just says take it or leave it when i complain. v bad attitude",
+    "aspects": ["recharge_plans", "data_validity", "pricing", "customer_support"],
+    "aspect_sentiments": {"recharge_plans": "negative", "data_validity": "negative", "pricing": "negative", "customer_support": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1756,
+    "feedback": "Phenomenal how they managed to make the SIM activation process feel like applying for a home loan. Seven documents, two store visits, one video KYC that failed thrice, and four days of waiting. All for the privilege of becoming their customer. Truly exclusive onboarding.",
+    "aspects": ["sim_activation"],
+    "aspect_sentiments": {"sim_activation": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1757,
+    "feedback": "Functional.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1758,
+    "feedback": "Genuinely happy with the internet speed improvements in my area this quarter. 5G finally works consistently and the speeds support everything from 4K streaming to large uploads without any hiccups. The recharge plan is fairly priced for the level of service delivered.",
+    "aspects": ["internet_speed", "5g_experience", "recharge_plans", "pricing"],
+    "aspect_sentiments": {"internet_speed": "positive", "5g_experience": "positive", "recharge_plans": "positive", "pricing": "positive"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1759,
+    "feedback": "Whatever. It works sometimes.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1760,
+    "feedback": "The OTT bundle stopped working mid-month and customer support took five days to fix it. Missed an entire cricket series I was looking forward to. When it finally came back the streaming quality was poor because the internet speed in my area has degraded significantly.",
+    "aspects": ["ott_bundle_services", "customer_support", "internet_speed"],
+    "aspect_sentiments": {"ott_bundle_services": "negative", "customer_support": "negative", "internet_speed": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1761,
+    "feedback": "Not bad not good. Just there.",
+    "aspects": ["internet_speed"],
+    "aspect_sentiments": {"internet_speed": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1762,
+    "feedback": "omg actually impressed for once. the esim activation took literally 10 minutes through the app. network connected instantly and 5g speeds kicked in immediately. didnt expect this level of efficiency from them",
+    "aspects": ["sim_activation", "mobile_app_experience", "5g_experience"],
+    "aspect_sentiments": {"sim_activation": "positive", "mobile_app_experience": "positive", "5g_experience": "positive"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1763,
+    "feedback": "Absolutely love how the billing surprises me with creative new charges every month. It is like a subscription box where I never know what mysterious fees will appear next. Keeps things exciting. The customer support team is equally creative in their excuses.",
+    "aspects": ["billing", "customer_support"],
+    "aspect_sentiments": {"billing": "negative", "customer_support": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1764,
+    "feedback": "Roaming. It happened. I survived.",
+    "aspects": ["roaming"],
+    "aspect_sentiments": {"roaming": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1765,
+    "feedback": "Strong network coverage in my residential area with zero dead zones even in the basement parking. Call quality is excellent for both voice and video calls. The data balance consumption is predictable and matches my actual usage. Reliable carrier overall.",
+    "aspects": ["network_coverage", "call_quality", "data_balance"],
+    "aspect_sentiments": {"network_coverage": "positive", "call_quality": "positive", "data_balance": "positive"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1766,
+    "feedback": "plz do something about the data validity. 24 days is ridiculous. other carriers give 28 minimum. and the ott bundle quality is pathetic. mobile only 480p streaming in 2024. embarrassing",
+    "aspects": ["data_validity", "ott_bundle_services"],
+    "aspect_sentiments": {"data_validity": "negative", "ott_bundle_services": "negative"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1767,
+    "feedback": "I would write a detailed review but the internet speed is so slow that this page might time out before I finish typing. Let me just say that the experience matches the low expectations I had coming in. The network coverage is equally inspiring.",
+    "aspects": ["internet_speed", "network_coverage"],
+    "aspect_sentiments": {"internet_speed": "negative", "network_coverage": "negative"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1768,
+    "feedback": "Billing okay. Plan okay. Life goes on.",
+    "aspects": ["billing", "recharge_plans"],
+    "aspect_sentiments": {"billing": "neutral", "recharge_plans": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1769,
+    "feedback": "The value for money on the premium plan is genuinely impressive. Internet speed is consistently fast, 5G coverage works in most areas I visit, and the included OTT bundle gives me access to five streaming platforms. All this at a price that is competitive with lower-tier plans from others.",
+    "aspects": ["value_for_money", "internet_speed", "5g_experience", "ott_bundle_services", "pricing"],
+    "aspect_sentiments": {"value_for_money": "positive", "internet_speed": "positive", "5g_experience": "positive", "ott_bundle_services": "positive", "pricing": "positive"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1770,
+    "feedback": "Sure. Why not. It is a telecom service.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1771,
+    "feedback": "What a privilege to experience their roaming service where my phone becomes an expensive paperweight the moment I cross the border. Despite activating everything correctly through the app nothing worked abroad. Came home to a bill that suggests otherwise. Magic.",
+    "aspects": ["roaming", "mobile_app_experience", "billing"],
+    "aspect_sentiments": {"roaming": "negative", "mobile_app_experience": "negative", "billing": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1772,
+    "feedback": "Sim activated. Phone works. Done.",
+    "aspects": ["sim_activation"],
+    "aspect_sentiments": {"sim_activation": "positive"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1773,
+    "feedback": "The quarterly recharge plan at 699 is solid value for money with 84 days validity and 2GB daily data. OTT access includes three platforms and the billing is straightforward with no hidden charges. Data balance tracking in the app is accurate. Reliable overall.",
+    "aspects": ["recharge_plans", "value_for_money", "data_validity", "ott_bundle_services", "billing", "data_balance", "mobile_app_experience"],
+    "aspect_sentiments": {"recharge_plans": "positive", "value_for_money": "positive", "data_validity": "positive", "ott_bundle_services": "positive", "billing": "positive", "data_balance": "positive", "mobile_app_experience": "positive"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1774,
+    "feedback": "I have opinions. They are neutral.",
+    "aspects": ["network_coverage"],
+    "aspect_sentiments": {"network_coverage": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1775,
+    "feedback": "ur 5g is basically 4g with a new label. same speeds same coverage same everything. just marketing fluff. the only thing that changed is the pricing went up. value for money is a joke at this point",
+    "aspects": ["5g_experience", "internet_speed", "network_coverage", "pricing", "value_for_money"],
+    "aspect_sentiments": {"5g_experience": "negative", "internet_speed": "negative", "network_coverage": "negative", "pricing": "negative", "value_for_money": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1776,
+    "feedback": "The network coverage in rural Maharashtra has genuinely surprised me in a positive way. Full signal even in remote villages where other carriers show no service. Call quality is clear and internet speed is usable for video calls which is all I need when visiting family.",
+    "aspects": ["network_coverage", "call_quality", "internet_speed"],
+    "aspect_sentiments": {"network_coverage": "positive", "call_quality": "positive", "internet_speed": "positive"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1777,
+    "feedback": "Standard fare. Nothing remarkable.",
+    "aspects": ["recharge_plans"],
+    "aspect_sentiments": {"recharge_plans": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1778,
+    "feedback": "How convenient that the data balance notification arrives exactly one minute after my data is fully exhausted. Timely alerts are clearly not in their vocabulary. The mobile app shows remaining balance but refreshes once every 6 hours which is essentially useless for real-time tracking.",
+    "aspects": ["data_balance", "mobile_app_experience"],
+    "aspect_sentiments": {"data_balance": "negative", "mobile_app_experience": "negative"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1779,
+    "feedback": "Adequate for basic needs.",
+    "aspects": ["internet_speed"],
+    "aspect_sentiments": {"internet_speed": "neutral"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1780,
+    "feedback": "Really satisfied with customer support on the priority line. Zero wait time and the agent resolved my internet speed complaint within one call by escalating to technical team. Got a callback same day confirming the fix. This is how support should work everywhere.",
+    "aspects": ["customer_support", "internet_speed"],
+    "aspect_sentiments": {"customer_support": "positive", "internet_speed": "positive"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1781,
+    "feedback": "The pricing makes me laugh. Not in a good way.",
+    "aspects": ["pricing"],
+    "aspect_sentiments": {"pricing": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1782,
+    "feedback": "intrenet so slow my patience runs out before the page loads. cant even stream at lowest quality without buffering every 10 seconds. this is what they call 4g in 2024. prblm is nobody at the company cares enough to fix it",
+    "aspects": ["internet_speed", "customer_support"],
+    "aspect_sentiments": {"internet_speed": "negative", "customer_support": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1783,
+    "feedback": "The irony of their customer support line dropping calls while you are trying to report call quality issues is not lost on me. It is like calling the fire department and having the phone catch fire. Poetic really. At least it gives you perspective.",
+    "aspects": ["customer_support", "call_quality"],
+    "aspect_sentiments": {"customer_support": "negative", "call_quality": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1784,
+    "feedback": "Manageable. Gets me through the day.",
+    "aspects": ["network_coverage", "internet_speed"],
+    "aspect_sentiments": {"network_coverage": "neutral", "internet_speed": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1785,
+    "feedback": "Impressed with how well the roaming worked across four European countries. Automatic network switching, good data speeds for maps and messaging, and clear call quality throughout. The daily pack pricing was reasonable and billing afterward showed exactly what was promised.",
+    "aspects": ["roaming", "internet_speed", "call_quality", "pricing", "billing"],
+    "aspect_sentiments": {"roaming": "positive", "internet_speed": "positive", "call_quality": "positive", "pricing": "positive", "billing": "positive"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1786,
+    "feedback": "It is a SIM card. It lives in my phone.",
+    "aspects": ["sim_activation"],
+    "aspect_sentiments": {"sim_activation": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1787,
+    "feedback": "cant blv the recharge plan got worse again. same 299 plan now gives 1.5gb instead of 2gb. data validity also cut from 28 to 24 days. and they wonder why people switch. omg worst value ever",
+    "aspects": ["recharge_plans", "data_validity", "value_for_money"],
+    "aspect_sentiments": {"recharge_plans": "negative", "data_validity": "negative", "value_for_money": "negative"},
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1788,
+    "feedback": "Good call quality on this network. Voice is clear on both regular calls and VoLTE. Network coverage in my city is comprehensive with no dead zones that I have found in six months of use. A reliable experience that I do not have to think about.",
+    "aspects": ["call_quality", "network_coverage"],
+    "aspect_sentiments": {"call_quality": "positive", "network_coverage": "positive"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1789,
+    "feedback": "No strong feelings. It is a phone plan.",
+    "aspects": ["recharge_plans", "value_for_money"],
+    "aspect_sentiments": {"recharge_plans": "neutral", "value_for_money": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1790,
+    "feedback": "Thank you for the incredible value of paying 599 rupees monthly to watch Netflix in the resolution of a security camera from 2005. The OTT bundle truly represents the pinnacle of what modern money can buy. My eyes have never been more relaxed than when squinting at 480p.",
+    "aspects": ["ott_bundle_services", "pricing", "value_for_money"],
+    "aspect_sentiments": {"ott_bundle_services": "negative", "pricing": "negative", "value_for_money": "negative"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1791,
+    "feedback": "Fine I guess.",
+    "aspects": ["mobile_app_experience"],
+    "aspect_sentiments": {"mobile_app_experience": "neutral"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1792,
+    "feedback": "The sim activation for my elderly mother went smoothly thanks to patient customer support staff at the store. They helped with the video KYC process and made sure the recharge plan suited her light usage needs. She was making calls within an hour of visiting.",
+    "aspects": ["sim_activation", "customer_support", "recharge_plans", "call_quality"],
+    "aspect_sentiments": {"sim_activation": "positive", "customer_support": "positive", "recharge_plans": "positive", "call_quality": "positive"},
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1793,
+    "feedback": "Okay.",
+    "aspects": ["billing"],
+    "aspect_sentiments": {"billing": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1794,
+    "feedback": "v bad experience with sim activation. took 6 days when they promised 24 hours. then the network coverage in my area turned out to be garbage. no signal inside my house. plz at least show accurate coverage maps before selling",
+    "aspects": ["sim_activation", "network_coverage"],
+    "aspect_sentiments": {"sim_activation": "negative", "network_coverage": "negative"},
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1795,
+    "feedback": "The 5G experience at the airport was genuinely impressive. Downloaded a 2GB movie in under 30 seconds before boarding. Network coverage was flawless throughout the terminal and call quality for my last-minute work call was crystal clear. Technology working as intended.",
+    "aspects": ["5g_experience", "internet_speed", "network_coverage", "call_quality"],
+    "aspect_sentiments": {"5g_experience": "positive", "internet_speed": "positive", "network_coverage": "positive", "call_quality": "positive"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1796,
+    "feedback": "Data validity. Exists. Expires. Repeat.",
+    "aspects": ["data_validity"],
+    "aspect_sentiments": {"data_validity": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1797,
+    "feedback": "I find it charming that the mobile app has a speed test feature built in that consistently shows 150 Mbps while actual browsing feels like dial-up internet. The cognitive dissonance is impressive. At least the recharge flow works without crashing most of the time.",
+    "aspects": ["mobile_app_experience", "internet_speed", "recharge_plans"],
+    "aspect_sentiments": {"mobile_app_experience": "negative", "internet_speed": "negative", "recharge_plans": "neutral"},
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1798,
+    "feedback": "Standard. No complaints but no praise either.",
+    "aspects": ["network_coverage", "call_quality"],
+    "aspect_sentiments": {"network_coverage": "neutral", "call_quality": "neutral"},
+    "source_channel": "survey"
+  },
+  {
+    "id": 1799,
+    "feedback": "Really good value for money on the family plan. Four connections sharing a pool of data with individual OTT access for each member. Billing is consolidated and clear. Customer support helped set it all up quickly. Overall a positive experience worth recommending.",
+    "aspects": ["value_for_money", "recharge_plans", "ott_bundle_services", "billing", "customer_support"],
+    "aspect_sentiments": {"value_for_money": "positive", "recharge_plans": "positive", "ott_bundle_services": "positive", "billing": "positive", "customer_support": "positive"},
+    "source_channel": "customer_care_chat"
+  }
+]

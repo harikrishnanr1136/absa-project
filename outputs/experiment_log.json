@@ -1,0 +1,103 @@
+[
+  {
+    "experiment_id": "model1_lr_tfidf",
+    "timestamp": "2026-06-25T16:49:52.289007",
+    "model_type": "LogisticRegression + OneVsRest",
+    "features": "TF-IDF (10000 features, ngram 1-2)",
+    "hyperparameters": {
+      "max_iter": 1000,
+      "class_weight": "balanced",
+      "solver": "lbfgs",
+      "random_state": 42
+    },
+    "training_time_seconds": 3.455,
+    "inference_time_ms_per_sample": 0.0178,
+    "peak_memory_mb": 0.955,
+    "model_size_mb": 0.3811,
+    "aspect_detection": {
+      "train": {
+        "micro_f1": 0.9776,
+        "macro_f1": 0.9831
+      },
+      "val": {
+        "micro_f1": 0.9109,
+        "macro_f1": 0.9146
+      },
+      "test": {
+        "micro_f1": 0.8939,
+        "macro_f1": 0.9122
+      }
+    },
+    "sentiment_classification": {
+      "train": {
+        "macro_f1": 0.997,
+        "weighted_f1": 0.9975
+      },
+      "val": {
+        "macro_f1": 0.797,
+        "weighted_f1": 0.8056
+      },
+      "test": {
+        "macro_f1": 0.8339,
+        "weighted_f1": 0.8424
+      }
+    }
+  },
+  {
+    "experiment_id": "model2_distilbert_finetuned",
+    "timestamp": "2026-06-25T16:54:41.539677",
+    "model_type": "DistilBERT fine-tuned",
+    "features": "Contextual embeddings via DistilBertTokenizer",
+    "hyperparameters": {
+      "aspect_detection": {
+        "lr": 2e-05,
+        "batch_size": 16,
+        "epochs": 5,
+        "warmup_ratio": 0.1,
+        "weight_decay": 0.01,
+        "dropout": 0.3,
+        "threshold": 0.5
+      },
+      "sentiment_classification": {
+        "lr": 2e-05,
+        "batch_size": 16,
+        "epochs": 3,
+        "warmup_ratio": 0.1,
+        "weight_decay": 0.01,
+        "dropout": 0.3
+      }
+    },
+    "training_time_seconds": 0.0,
+    "inference_time_ms_per_sample": 29.0326,
+    "peak_memory_mb": 1.273,
+    "model_size_mb": 253.0,
+    "aspect_detection": {
+      "train": {
+        "micro_f1": 0.7897,
+        "macro_f1": 0.8137
+      },
+      "val": {
+        "micro_f1": 0.7683,
+        "macro_f1": 0.7851
+      },
+      "test": {
+        "micro_f1": 0.7518,
+        "macro_f1": 0.7674
+      }
+    },
+    "sentiment_classification": {
+      "train": {
+        "macro_f1": 0.7411,
+        "weighted_f1": 0.7748
+      },
+      "val": {
+        "macro_f1": 0.6808,
+        "weighted_f1": 0.7028
+      },
+      "test": {
+        "macro_f1": 0.6651,
+        "weighted_f1": 0.6834
+      }
+    }
+  }
+]

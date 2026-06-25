@@ -1,0 +1,454 @@
+{
+  "model1_confusion": {
+    "network_coverage": {
+      "cm": [
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          0,
+          12,
+          1
+        ],
+        [
+          3,
+          2,
+          8
+        ]
+      ],
+      "accuracy": 0.75,
+      "confusion_score": 0.7949,
+      "most_confused": {
+        "from": "neutral",
+        "to": "positive",
+        "percentage": 23.1
+      }
+    },
+    "internet_speed": {
+      "cm": [
+        [
+          13,
+          0,
+          0
+        ],
+        [
+          2,
+          8,
+          0
+        ],
+        [
+          2,
+          1,
+          5
+        ]
+      ],
+      "accuracy": 0.8387,
+      "confusion_score": 0.575,
+      "most_confused": {
+        "from": "neutral",
+        "to": "positive",
+        "percentage": 25.0
+      }
+    },
+    "call_quality": {
+      "cm": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          1,
+          9,
+          0
+        ],
+        [
+          1,
+          0,
+          5
+        ]
+      ],
+      "accuracy": 0.8095,
+      "confusion_score": 0.6667,
+      "most_confused": {
+        "from": "positive",
+        "to": "negative",
+        "percentage": 40.0
+      }
+    },
+    "customer_support": {
+      "cm": [
+        [
+          10,
+          2,
+          0
+        ],
+        [
+          0,
+          17,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "accuracy": 0.875,
+      "confusion_score": 0.8333,
+      "most_confused": {
+        "from": "neutral",
+        "to": "positive",
+        "percentage": 33.3
+      }
+    },
+    "billing": {
+      "cm": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          1,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.95,
+      "confusion_score": 0.125,
+      "most_confused": {
+        "from": "negative",
+        "to": "positive",
+        "percentage": 12.5
+      }
+    },
+    "recharge_plans": {
+      "cm": [
+        [
+          15,
+          2,
+          0
+        ],
+        [
+          1,
+          20,
+          0
+        ],
+        [
+          4,
+          0,
+          9
+        ]
+      ],
+      "accuracy": 0.8627,
+      "confusion_score": 0.473,
+      "most_confused": {
+        "from": "neutral",
+        "to": "positive",
+        "percentage": 30.8
+      }
+    },
+    "data_balance": {
+      "cm": [
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8333,
+      "confusion_score": 0.4,
+      "most_confused": {
+        "from": "neutral",
+        "to": "positive",
+        "percentage": 40.0
+      }
+    },
+    "roaming": {
+      "cm": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "accuracy": 0.8,
+      "confusion_score": 0.4,
+      "most_confused": {
+        "from": "negative",
+        "to": "positive",
+        "percentage": 40.0
+      }
+    },
+    "sim_activation": {
+      "cm": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "accuracy": 1.0,
+      "confusion_score": 0.0,
+      "most_confused": {
+        "from": "positive",
+        "to": "positive",
+        "percentage": 0.0
+      }
+    },
+    "mobile_app_experience": {
+      "cm": [
+        [
+          6,
+          0,
+          1
+        ],
+        [
+          1,
+          6,
+          0
+        ],
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "accuracy": 0.8421,
+      "confusion_score": 0.4857,
+      "most_confused": {
+        "from": "neutral",
+        "to": "negative",
+        "percentage": 20.0
+      }
+    },
+    "ott_bundle_services": {
+      "cm": [
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          1
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.8824,
+      "confusion_score": 0.2857,
+      "most_confused": {
+        "from": "negative",
+        "to": "positive",
+        "percentage": 14.3
+      }
+    },
+    "pricing": {
+      "cm": [
+        [
+          11,
+          2,
+          0
+        ],
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          2,
+          1,
+          5
+        ]
+      ],
+      "accuracy": 0.8387,
+      "confusion_score": 0.5288,
+      "most_confused": {
+        "from": "neutral",
+        "to": "positive",
+        "percentage": 25.0
+      }
+    },
+    "value_for_money": {
+      "cm": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0
+        ],
+        [
+          3,
+          0,
+          2
+        ]
+      ],
+      "accuracy": 0.8846,
+      "confusion_score": 0.6,
+      "most_confused": {
+        "from": "neutral",
+        "to": "positive",
+        "percentage": 60.0
+      }
+    },
+    "data_validity": {
+      "cm": [
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          3
+        ]
+      ],
+      "accuracy": 0.9286,
+      "confusion_score": 0.25,
+      "most_confused": {
+        "from": "neutral",
+        "to": "positive",
+        "percentage": 25.0
+      }
+    },
+    "5g_experience": {
+      "cm": [
+        [
+          10,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          2
+        ]
+      ],
+      "accuracy": 0.6842,
+      "confusion_score": 1.3333,
+      "most_confused": {
+        "from": "neutral",
+        "to": "positive",
+        "percentage": 50.0
+      }
+    }
+  },
+  "model2_confusion": {},
+  "model1_top3_confused": [
+    "5g_experience",
+    "customer_support",
+    "network_coverage"
+  ],
+  "model2_top3_confused": [],
+  "misclassified_examples": {
+    "5g_experience": [
+      {
+        "feedback": "The network coverage is wide but the call quality doesn't match. I get full signal bars but voice ca",
+        "true": "positive",
+        "predicted": "negative"
+      },
+      {
+        "feedback": "Their 5G coverage is basically non-existent outside metro cities. Do not waste your money on premium",
+        "true": "negative",
+        "predicted": "positive"
+      },
+      {
+        "feedback": "5G experience is okay in my area. Sometimes fast sometimes regular.",
+        "true": "neutral",
+        "predicted": "positive"
+      }
+    ],
+    "customer_support": [
+      {
+        "feedback": "Called about a billing error and the support agent corrected it immediately.",
+        "true": "positive",
+        "predicted": "negative"
+      },
+      {
+        "feedback": "Called support about my reacharg not getting activated. agent was helpful and fixed it in 2 mins. go",
+        "true": "positive",
+        "predicted": "negative"
+      },
+      {
+        "feedback": "SIM activation was delayed because of a system error on their end. The app showed my documents were ",
+        "true": "neutral",
+        "predicted": "negative"
+      }
+    ],
+    "network_coverage": [
+      {
+        "feedback": "Standard. No complaints but no praise either.",
+        "true": "neutral",
+        "predicted": "negative"
+      },
+      {
+        "feedback": "Horrible network coverage on highways between the two cities. My call dropped 5 times during a 2 hou",
+        "true": "negative",
+        "predicted": "neutral"
+      },
+      {
+        "feedback": "The coverage along my daily 40-kilometer commute route through multiple zones is consistent and reli",
+        "true": "neutral",
+        "predicted": "positive"
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "per_aspect_f1": [
+    {
+      "aspect": "network_coverage",
+      "model1_f1": 0.8136,
+      "model2_f1": 0.7838,
+      "winner": "Model 1",
+      "delta": -0.0298
+    },
+    {
+      "aspect": "internet_speed",
+      "model1_f1": 0.8852,
+      "model2_f1": 0.6923,
+      "winner": "Model 1",
+      "delta": -0.1929
+    },
+    {
+      "aspect": "call_quality",
+      "model1_f1": 0.9231,
+      "model2_f1": 0.717,
+      "winner": "Model 1",
+      "delta": -0.2061
+    },
+    {
+      "aspect": "customer_support",
+      "model1_f1": 0.9841,
+      "model2_f1": 0.8169,
+      "winner": "Model 1",
+      "delta": -0.1672
+    },
+    {
+      "aspect": "billing",
+      "model1_f1": 0.9189,
+      "model2_f1": 0.75,
+      "winner": "Model 1",
+      "delta": -0.1689
+    },
+    {
+      "aspect": "recharge_plans",
+      "model1_f1": 0.8333,
+      "model2_f1": 0.7523,
+      "winner": "Model 1",
+      "delta": -0.081
+    },
+    {
+      "aspect": "data_balance",
+      "model1_f1": 1.0,
+      "model2_f1": 0.8571,
+      "winner": "Model 1",
+      "delta": -0.1429
+    },
+    {
+      "aspect": "roaming",
+      "model1_f1": 1.0,
+      "model2_f1": 1.0,
+      "winner": "Tie",
+      "delta": 0.0
+    },
+    {
+      "aspect": "sim_activation",
+      "model1_f1": 0.9231,
+      "model2_f1": 0.6667,
+      "winner": "Model 1",
+      "delta": -0.2564
+    },
+    {
+      "aspect": "mobile_app_experience",
+      "model1_f1": 0.9474,
+      "model2_f1": 0.8,
+      "winner": "Model 1",
+      "delta": -0.1474
+    },
+    {
+      "aspect": "ott_bundle_services",
+      "model1_f1": 0.9697,
+      "model2_f1": 0.7111,
+      "winner": "Model 1",
+      "delta": -0.2586
+    },
+    {
+      "aspect": "pricing",
+      "model1_f1": 0.8182,
+      "model2_f1": 0.7209,
+      "winner": "Model 1",
+      "delta": -0.0973
+    },
+    {
+      "aspect": "value_for_money",
+      "model1_f1": 0.8364,
+      "model2_f1": 0.6316,
+      "winner": "Model 1",
+      "delta": -0.2048
+    },
+    {
+      "aspect": "data_validity",
+      "model1_f1": 0.8571,
+      "model2_f1": 0.6842,
+      "winner": "Model 1",
+      "delta": -0.1729
+    },
+    {
+      "aspect": "5g_experience",
+      "model1_f1": 0.973,
+      "model2_f1": 0.9268,
+      "winner": "Model 1",
+      "delta": -0.0462
+    },
+    {
+      "aspect": "AVERAGE",
+      "model1_f1": 0.9122,
+      "model2_f1": 0.7674,
+      "winner": "Model 1",
+      "delta": -0.1448
+    }
+  ],
+  "analysis": {
+    "model2_wins_big": [],
+    "model1_wins": [
+      "network_coverage",
+      "internet_speed",
+      "call_quality",
+      "customer_support",
+      "billing",
+      "recharge_plans",
+      "data_balance",
+      "sim_activation",
+      "mobile_app_experience",
+      "ott_bundle_services",
+      "pricing",
+      "value_for_money",
+      "data_validity",
+      "5g_experience"
+    ],
+    "both_below_threshold": [],
+    "best_aspect": "data_balance",
+    "worst_aspect": "network_coverage"
+  }
+}

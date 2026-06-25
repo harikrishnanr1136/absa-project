@@ -1,0 +1,82 @@
+# ─── ABSA Telecom Project Configuration ───────────────────────────────────────
+
+# Data paths
+data:
+  raw: "data/absa_telecom_combined.csv"
+  cleaned: "data/telecom_absa_cleaned.csv"
+  preprocessed: "data/preprocessed_feedback.pkl"
+  tfidf_features: "data/tfidf_features.pkl"
+  embedding_features: "data/embedding_features.npy"
+
+# Model save paths
+models:
+  dir: "models/"
+  tfidf_vectorizer: "models/tfidf_vectorizer.joblib"
+  sentiment_model: "models/sentiment_classifiers_lr.pkl"
+  sentiment_vectorizers: "models/sentiment_vectorizers_lr.pkl"
+  aspect_model: "models/aspect_detector_lr.pkl"
+  aspect_model_distilbert: "models/aspect_detector_distilbert.pt"
+  sentiment_model_distilbert: "models/sentiment_classifiers_distilbert.pt"
+  pipeline: "models/preprocessing_pipeline.joblib"
+  mlb: "models/mlb.pkl"
+
+# Output paths
+outputs:
+  eda: "outputs/eda/"
+  models: "outputs/models/"
+
+# Label definitions
+labels:
+  aspects:
+    - network_coverage
+    - internet_speed
+    - call_quality
+    - customer_support
+    - billing
+    - recharge_plans
+    - data_balance
+    - roaming
+    - sim_activation
+    - mobile_app_experience
+    - ott_bundle_services
+    - pricing
+    - value_for_money
+    - data_validity
+    - 5g_experience
+  sentiments:
+    - positive
+    - negative
+    - neutral
+
+# Train/Val/Test split ratios
+split:
+  train: 0.70
+  val: 0.15
+  test: 0.15
+
+# Random seed for reproducibility
+seed: 42
+
+# Feature extraction settings
+features:
+  tfidf:
+    max_features: 10000
+    ngram_range: [1, 2]
+    sublinear_tf: true
+    min_df: 2
+  embedding:
+    model_name: "all-MiniLM-L6-v2"
+    batch_size: 64
+    dimension: 384
+
+# Deep learning training settings
+dl_training:
+  model_name: "distilbert-base-uncased"
+  epochs: 5
+  batch_size: 16
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  dropout: 0.3
+  max_length: 128
+  early_stopping_patience: 2

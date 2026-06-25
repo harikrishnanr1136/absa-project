@@ -1,0 +1,1314 @@
+[
+  {
+    "id": 1000,
+    "feedback": "The 5G experience in my city has been phenomenal. I consistently get speeds above 800 Mbps and streaming is buttery smooth. Definitely worth upgrading my plan for this kind of performance.",
+    "aspects": [
+      "5g_experience",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1001,
+    "feedback": "Network coverage is terrible in rural areas near my village. Calls keep dropping every few minutes.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1002,
+    "feedback": "plz fix ur network coverage in downtown. cant even make a call without it dropping. v bad experience tbh",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1003,
+    "feedback": "Call quality on this network is okay. Nothing special.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1004,
+    "feedback": "5G speeds are decent in the metro area but the coverage doesn't extend to the suburbs at all. I expected better rollout by now given all the marketing hype. Customer support was helpful when I raised a complaint though.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral",
+      "network_coverage": "negative",
+      "customer_support": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1005,
+    "feedback": "No signal in my office building. Frustrating.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1006,
+    "feedback": "Switched to this carrier for 5G and I am not disappointed. Calls are clear and the internet speed during peak hours is still fantastic. Best decision I made this year for my mobile experience.",
+    "aspects": [
+      "5g_experience",
+      "call_quality",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "call_quality": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1007,
+    "feedback": "I am really disappointed with the call quality lately. Keeps breaking up during important calls.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1008,
+    "feedback": "Network coverage is fine in the city for the most part. Nothing special or outstanding but it works reliably enough for daily calls and browsing. I rarely face complete dead zones in the urban areas but the speeds and signal strength are never exceptionally impressive either. It is just an average middle ground experience.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1009,
+    "feedback": "The intrenet speed on 5G is amazng. I download movies in seconds now. Totally worth the extra cost for the premium plan.",
+    "aspects": [
+      "internet_speed",
+      "5g_experience",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "internet_speed": "positive",
+      "5g_experience": "positive",
+      "pricing": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1010,
+    "feedback": "Horrible network coverage on highways between the two cities. My call dropped 5 times during a 2 hour drive yesterday. This is unacceptable for people who commute daily. I need a reliable connection for work calls and this network simply cannot deliver that basic requirement on major roads.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1011,
+    "feedback": "Worst call quality ever. Been with this network 3 years and it is getting worse not better.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1012,
+    "feedback": "Network coverage is okay across most areas I travel to for work. It functions well enough in the city and on main highways but there are definitely dead spots once you move into smaller residential lanes. Nothing exceptional but also nothing terrible. Just average middle of the road service that gets the basic job done.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1013,
+    "feedback": "5G is available in my area now and the speeds are insane. Video calls are super smooth and there's no buffering at all even during peak evening hours. Really impressed with how far the technology has come.",
+    "aspects": [
+      "5g_experience",
+      "call_quality",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "call_quality": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1014,
+    "feedback": "The custmer support team was very rude when I called about my network issues. No resolution provided.",
+    "aspects": [
+      "customer_support",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "customer_support": "negative",
+      "network_coverage": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1015,
+    "feedback": "Call quality is about the same after the tower work in our area. No change.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1016,
+    "feedback": "cant blv how bad the coverage is in my area. paying premium price for this?? not acceptable",
+    "aspects": [
+      "network_coverage",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1017,
+    "feedback": "Average 5G experience. Speeds fluctuate a lot depending on the time of day.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1018,
+    "feedback": "I've been using this network for over a year now and the call quality in my neighborhood has always been excellent. Never experienced a dropped call or static noise. The network coverage extends well into the basement parking area too which is rare.",
+    "aspects": [
+      "call_quality",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "positive",
+      "network_coverage": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1019,
+    "feedback": "Recharge plans are overpriced for the network quality we actually receive. Calls drop frequently in tier 2 cities which makes the premium pricing completely unjustified. I have tried multiple plans hoping for better service but the underlying network infrastructure clearly needs major upgrades before they can charge these rates.",
+    "aspects": [
+      "recharge_plans",
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1020,
+    "feedback": "5G rollout is ok I guess. Not everywhere yet but where it works, it works well.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1021,
+    "feedback": "Network coverage in my new city is average overall. It works fine in commercial areas and main roads but struggles in some older residential buildings. The signal fluctuates between full bars and two bars depending on where exactly I am. Not a deal breaker but not impressive either for the rates they charge.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1022,
+    "feedback": "prblm with call quality since last week. voice keeps echoing and breaking. plz fix asap",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1023,
+    "feedback": "The 5G experience is transformative for my work from home setup. Video conferences are lag-free, downloads are instant, and the connection is rock solid throughout the day. Worth every penny of the premium plan.",
+    "aspects": [
+      "5g_experience",
+      "internet_speed",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "internet_speed": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1024,
+    "feedback": "Network coverage is satisfactory in my daily use areas. I do not have major complaints but I also would not say it exceeds expectations. The coverage works for basic calls and messaging without frequent drops. In indoor areas it can get slightly weak but manageable. Overall a neutral average experience.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1025,
+    "feedback": "I travel a lot for work and the roaming experience is seamless. Call quality remains consistent whether I'm in metro cities or smaller towns. Very reliable network overall.",
+    "aspects": [
+      "roaming",
+      "call_quality",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "roaming": "positive",
+      "call_quality": "positive",
+      "network_coverage": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1026,
+    "feedback": "Your 5G is a joke. Same speed as 4G in most places. Stop false advertising.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1027,
+    "feedback": "Excellent call clarity. No issues with network coverage either. Solid carrier.",
+    "aspects": [
+      "call_quality",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "positive",
+      "network_coverage": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1028,
+    "feedback": "The mobile app crashes every time I try to check my data balance. Meanwhile call quality has gone downhill since I moved to this area. The app needs a serious overhaul and so does the tower infrastructure here.",
+    "aspects": [
+      "mobile_app_experience",
+      "data_balance",
+      "call_quality",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "mobile_app_experience": "negative",
+      "data_balance": "negative",
+      "call_quality": "negative",
+      "network_coverage": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1029,
+    "feedback": "5G signal is present at my home. Not sure it makes a huge difference yet.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1030,
+    "feedback": "reacharg plans r too costly for the network we get. custmer care doesnt help either",
+    "aspects": [
+      "recharge_plans",
+      "network_coverage",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "network_coverage": "negative",
+      "customer_support": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1031,
+    "feedback": "Inconsistent network coverage on my daily commute. Calls drop twice a day on the metro.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1032,
+    "feedback": "Tried the 5G plan for a month. Speeds are good but not life-changing compared to 4G in my area. The coverage map they showed was accurate at least.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral",
+      "network_coverage": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1033,
+    "feedback": "Terrible call quality in basement areas and underground parking. I expected better from a premium carrier that charges top dollar for their plans. Every time I go below ground level the calls become completely unusable with heavy static and frequent disconnections. This is a basic infrastructure issue they need to address.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1034,
+    "feedback": "I recently activated my SIM and the whole process was smooth. The network coverage where I live is excellent and 5G works right out of the box. Really happy with my choice of carrier.",
+    "aspects": [
+      "sim_activation",
+      "network_coverage",
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "sim_activation": "positive",
+      "network_coverage": "positive",
+      "5g_experience": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1035,
+    "feedback": "Network works fine. Call quality is acceptable.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral",
+      "call_quality": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1036,
+    "feedback": "tbh ok network but the 5g is not what they promised. expected much better speeds for the price",
+    "aspects": [
+      "network_coverage",
+      "5g_experience",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral",
+      "5g_experience": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1037,
+    "feedback": "Best call quality I've experienced on any network. Zero static, zero drops.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1038,
+    "feedback": "The network coverage in the new industrial zone is completely non-existent. Multiple colleagues on the same network face the exact same issue every single day. We have raised several tickets over the past two months but received no resolution or even a timeline for when this might be fixed. Very disappointing service for business users who depend on connectivity.",
+    "aspects": [
+      "network_coverage",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "customer_support": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1039,
+    "feedback": "5G speeds are there but nothing mind-blowing. Acceptable I guess.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1040,
+    "feedback": "my intrenet keeps disconnecting in the evening. call quality also bad during peak hours. worst service provider honestly",
+    "aspects": [
+      "internet_speed",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "internet_speed": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1041,
+    "feedback": "Network coverage throughout my apartment complex is acceptable but not outstanding. It works on most floors without issues but the signal gets weak in the parking basement and some corners of the gym area. For everyday usage like calls and messaging it is fine. Would appreciate stronger indoor coverage though.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1042,
+    "feedback": "The OTT bundle with the 5G plan is a great value add. Netflix and Prime included with excellent streaming quality thanks to the fast network. Only concern is the data validity period could be longer for the price.",
+    "aspects": [
+      "ott_bundle_services",
+      "5g_experience",
+      "internet_speed",
+      "data_validity",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "ott_bundle_services": "positive",
+      "5g_experience": "positive",
+      "internet_speed": "positive",
+      "data_validity": "negative",
+      "pricing": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1043,
+    "feedback": "Call quality is mediocre at best on this network. It is neither impressively good nor terribly bad. Conversations are understandable but there is often a slight background hiss and occasional brief audio gaps. For casual calls it is fine but for professional or long duration calls the inconsistency becomes noticeable over time.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1044,
+    "feedback": "plz improve coverage in my area. been 6 months no improvement. calls drop daily",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1045,
+    "feedback": "Solid 5G performance for gaming. Low latency and high speeds consistently.",
+    "aspects": [
+      "5g_experience",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1046,
+    "feedback": "Moved to a new area last month and the network coverage here is absolutely abysmal. I work from home and need stable connectivity for client calls throughout the day. Had to switch to Wi-Fi calling because the native call quality is completely unusable with constant drops and distortion. Seriously considering switching carriers at this point.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1047,
+    "feedback": "Great value for money with the new 5G plan. Coverage and call quality are top notch.",
+    "aspects": [
+      "value_for_money",
+      "5g_experience",
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "value_for_money": "positive",
+      "5g_experience": "positive",
+      "network_coverage": "positive",
+      "call_quality": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1048,
+    "feedback": "5G coverage map says available but I never get 5G signal at home. Misleading.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "negative",
+      "network_coverage": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1049,
+    "feedback": "The network has been unstable for months. Frequent call drops and poor coverage in my locality. Not what I signed up for.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1050,
+    "feedback": "Your customer support is terrible. Waited 45 minutes to report a network issue. Still not fixed.",
+    "aspects": [
+      "customer_support",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "customer_support": "negative",
+      "network_coverage": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1051,
+    "feedback": "5G in the business district is average. Works for basic tasks.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1052,
+    "feedback": "I bought this plan specifically for the 5G experience but I'm stuck on 4G most of the time. The coverage is very patchy and inconsistent. When it does connect to 5G the speeds are good but that happens maybe 30% of the time.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "negative",
+      "network_coverage": "negative",
+      "internet_speed": "positive"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1053,
+    "feedback": "Decent coverage. Calls are clear most of the time.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral",
+      "call_quality": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1054,
+    "feedback": "The 5G upgrade was genuinely worth it. Streaming and calls both improved significantly since switching.",
+    "aspects": [
+      "5g_experience",
+      "internet_speed",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "internet_speed": "positive",
+      "call_quality": "positive"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1055,
+    "feedback": "No 5G in my area yet. Waiting for rollout.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1056,
+    "feedback": "The billing is transparent and the network coverage has been great since I joined. Call quality is consistently good across different locations in my city. Really appreciate the honest service.",
+    "aspects": [
+      "billing",
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "billing": "positive",
+      "network_coverage": "positive",
+      "call_quality": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1057,
+    "feedback": "Coverage is there in most places but call quality keeps fluctuating quite a bit during rainy weather. When it rains heavily the voice calls become distorted with crackling sounds and occasional drops. On clear days everything works fine. This seasonal inconsistency is annoying especially during monsoon months when it rains almost daily.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral",
+      "call_quality": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1058,
+    "feedback": "v bad network in my office area. been complaining for months with no fix. very frustrting",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1059,
+    "feedback": "Happy with 5G performance. Meets my expectations for the price I pay.",
+    "aspects": [
+      "5g_experience",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1060,
+    "feedback": "Network drops in the elevator but works fine everywhere else in the building. Call quality on the terrace is excellent though. I'd rate the overall experience as good with minor inconveniences that I can live with.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral",
+      "call_quality": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1061,
+    "feedback": "Switched from competitor. Coverage here is about the same honestly.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1062,
+    "feedback": "the 5g prblm in my area is ridiculous. tower was supposed to be installed last month. still waiting for proper coverage and decent call quality",
+    "aspects": [
+      "5g_experience",
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "negative",
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1063,
+    "feedback": "5G finally launched here but it keeps dropping back to 4G. Disappointing rollout.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1064,
+    "feedback": "I have had consistent network coverage issues for the past three months in my residential colony. Multiple neighbors on the same network confirm they face identical problems. We have collectively written to the company twice but the only response has been generic auto-replies with no real action taken. The coverage was fine a year ago so something has clearly changed with the infrastructure.",
+    "aspects": [
+      "network_coverage",
+      "customer_support"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "customer_support": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1065,
+    "feedback": "Call quality is neither good nor bad. Average experience overall.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1066,
+    "feedback": "The 5G coverage in airports and malls is impressive. I can make HD video calls without any lag and the browsing experience is seamless. However the pricing for the 5G tier feels steep compared to what competitors offer.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage",
+      "call_quality",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "network_coverage": "positive",
+      "call_quality": "positive",
+      "pricing": "negative"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1067,
+    "feedback": "Network is average and gets the job done for basic everyday calls and light browsing. I have not experienced complete outages but the speeds are never fast enough for smooth video calls or heavy streaming. For the price I pay it feels like just barely acceptable service. Nothing that makes me want to stay or switch.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral",
+      "call_quality": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1068,
+    "feedback": "omg the call quality is so bad today. cant hear anything properly. fix ur towers plz",
+    "aspects": [
+      "call_quality",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "negative",
+      "network_coverage": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1069,
+    "feedback": "Impressed with the 5G trial. Speed test showed 1.2 Gbps download.",
+    "aspects": [
+      "5g_experience",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1070,
+    "feedback": "I want to appreciate the significant network improvements in my locality over the past six months. Earlier the coverage was extremely spotty and calls would frequently drop mid-conversation which was very embarrassing during work calls. After they installed a new tower last quarter everything has improved dramatically. Calls are crystal clear now and I rarely see signal drops even indoors.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "positive",
+      "call_quality": "positive"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1071,
+    "feedback": "5G is not available in most places they claim. Overhyped.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1072,
+    "feedback": "the reacharg plan i took has poor data validity and the network coverage in my area is below average. not getting value for the money spent at all",
+    "aspects": [
+      "recharge_plans",
+      "data_validity",
+      "network_coverage",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "recharge_plans": "negative",
+      "data_validity": "negative",
+      "network_coverage": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1073,
+    "feedback": "Signal is present in the city center. Nothing remarkable.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1074,
+    "feedback": "I'm on the 5G plan and honestly it has been a mixed bag. Some days the speed is incredible and other days it reverts to 4G without warning. The coverage map needs to be more accurate. At least call quality hasn't suffered.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral",
+      "network_coverage": "negative",
+      "call_quality": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1075,
+    "feedback": "Pathetic network service in my apartment building. There is absolutely no coverage inside any of the units. I have to go to the balcony or step outside just to make a phone call. Multiple residents have complained but nothing has changed. For what we pay monthly this level of service is completely unacceptable.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1076,
+    "feedback": "cant blv they charge so much and the 5g doesnt even work properly in most areas. total waste of money",
+    "aspects": [
+      "5g_experience",
+      "pricing",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "negative",
+      "pricing": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1077,
+    "feedback": "Call quality for business use is terrible. Network cuts out during video conferences regularly.",
+    "aspects": [
+      "call_quality",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "negative",
+      "network_coverage": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1078,
+    "feedback": "Recently moved to a tier 2 city and was pleasantly surprised by the 5G availability here. The tower density seems good as I get consistent signal strength at home and office. Internet speeds hover around 500 Mbps which is more than enough for my needs.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "network_coverage": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1079,
+    "feedback": "5G experience is just okay after using it for a couple of months now. It is not the revolution they promised in their advertising campaigns. Speeds are marginally better than 4G in my area and the coverage is still patchy. I expected a much bigger leap in performance based on all the marketing and premium pricing.",
+    "aspects": [
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1080,
+    "feedback": "plz look into network prblm in sector 45. calling is impossible after 8pm. v bad service",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1081,
+    "feedback": "Smooth 5G experience on my new phone. Very fast downloads.",
+    "aspects": [
+      "5g_experience",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1082,
+    "feedback": "The network coverage is wide but the call quality doesn't match. I get full signal bars but voice calls still have a slight delay which is annoying during professional conversations. The 5G data speeds are good though so I use VoIP instead.",
+    "aspects": [
+      "network_coverage",
+      "call_quality",
+      "5g_experience"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "positive",
+      "call_quality": "negative",
+      "5g_experience": "positive"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1083,
+    "feedback": "Coverage is poor for my daily needs. Calls drop frequently even indoors.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1084,
+    "feedback": "The 5G in this city is amazing. Never going back to my old provider. Speeds are unreal.",
+    "aspects": [
+      "5g_experience",
+      "internet_speed"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "internet_speed": "positive"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1085,
+    "feedback": "Call quality during international calls is consistently poor with lots of echo and delay. I make regular calls to family abroad and every single conversation is plagued by voice distortion and awkward pauses from the latency. This was not an issue with my previous carrier so it is clearly a network routing problem that needs to be addressed.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1086,
+    "feedback": "Have been using the 5G service for two months now. Network coverage inside buildings could be better but outdoor reception is strong. The app makes it easy to track my data consumption and the recharge process is seamless.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage",
+      "mobile_app_experience",
+      "recharge_plans"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "network_coverage": "neutral",
+      "mobile_app_experience": "positive",
+      "recharge_plans": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1087,
+    "feedback": "Network coverage seems the same as before. No noticeable change this quarter.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1088,
+    "feedback": "Their 5G coverage is basically non-existent outside metro cities. Do not waste your money on premium plans if you live in smaller towns.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "negative",
+      "network_coverage": "negative",
+      "value_for_money": "negative"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1089,
+    "feedback": "Network performance in my area is average. Does the job.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1090,
+    "feedback": "The 5G trial period was fine. Average speeds around 300-400 Mbps which is acceptable but not groundbreaking. Call quality on VoLTE remained unaffected which is good. Will continue with the plan for now.",
+    "aspects": [
+      "5g_experience",
+      "internet_speed",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral",
+      "internet_speed": "neutral",
+      "call_quality": "positive"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1091,
+    "feedback": "Poor signal strength in all the newly developed areas around the outskirts of the city. My entire neighborhood was built two years ago and still has no proper tower coverage. We need urgent tower installation because hundreds of families here rely on mobile connectivity for work and school and emergency communication.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1092,
+    "feedback": "Love the new 5G speeds. Finally can stream without buffering. Call quality also improved a lot since they upgraded towers near me.",
+    "aspects": [
+      "5g_experience",
+      "internet_speed",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "internet_speed": "positive",
+      "call_quality": "positive"
+    },
+    "source_channel": "twitter"
+  },
+  {
+    "id": 1093,
+    "feedback": "Network coverage is present but weak in indoor areas. Manageable.",
+    "aspects": [
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "neutral"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1094,
+    "feedback": "Wonderful call clarity on this network. Best I've used in years. The 5G has also made a noticeable difference in how fast web pages load and apps update. Money well spent on the upgrade.",
+    "aspects": [
+      "call_quality",
+      "5g_experience",
+      "internet_speed",
+      "value_for_money"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "positive",
+      "5g_experience": "positive",
+      "internet_speed": "positive",
+      "value_for_money": "positive"
+    },
+    "source_channel": "app_review"
+  },
+  {
+    "id": 1095,
+    "feedback": "Facing continuous call drops since yesterday afternoon and it is extremely inconvenient. I have restarted my phone multiple times and checked with neighbors who face the same issue. This seems like a tower outage that has not been communicated or resolved. I need this fixed urgently as I rely on calls for my business throughout the day.",
+    "aspects": [
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "call_quality": "negative"
+    },
+    "source_channel": "customer_care_chat"
+  },
+  {
+    "id": 1096,
+    "feedback": "5G network coverage in the tech park is exceptional. All my colleagues have switched and are happy with the call quality and data speeds. The only downside is the premium pricing but for corporate users it's justified.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage",
+      "call_quality",
+      "internet_speed",
+      "pricing"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "positive",
+      "network_coverage": "positive",
+      "call_quality": "positive",
+      "internet_speed": "positive",
+      "pricing": "negative"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1097,
+    "feedback": "Average 5G. Average coverage. Nothing exceptional.",
+    "aspects": [
+      "5g_experience",
+      "network_coverage"
+    ],
+    "aspect_sentiments": {
+      "5g_experience": "neutral",
+      "network_coverage": "neutral"
+    },
+    "source_channel": "survey"
+  },
+  {
+    "id": 1098,
+    "feedback": "intrenet speed on 5g is good but the network drops too often. calls r also not clear in my bldg. need urgent improvement",
+    "aspects": [
+      "internet_speed",
+      "5g_experience",
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "internet_speed": "positive",
+      "5g_experience": "negative",
+      "network_coverage": "negative",
+      "call_quality": "negative"
+    },
+    "source_channel": "complaint_ticket"
+  },
+  {
+    "id": 1099,
+    "feedback": "Superb network. Calls are crystal clear everywhere in the city.",
+    "aspects": [
+      "network_coverage",
+      "call_quality"
+    ],
+    "aspect_sentiments": {
+      "network_coverage": "positive",
+      "call_quality": "positive"
+    },
+    "source_channel": "app_review"
+  }
+]

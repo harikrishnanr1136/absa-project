@@ -1,0 +1,473 @@
+{
+  "generated_at": "2026-06-25T16:54:44.401738",
+  "models_compared": [
+    "Model 1 (LR + TF-IDF)",
+    "Model 2 (DistilBERT)"
+  ],
+  "performance": {
+    "model1": {
+      "aspect_detection": {
+        "train": {
+          "micro_f1": 0.9776,
+          "macro_f1": 0.9831
+        },
+        "val": {
+          "micro_f1": 0.9109,
+          "macro_f1": 0.9146
+        },
+        "test": {
+          "micro_f1": 0.8939,
+          "macro_f1": 0.9122
+        }
+      },
+      "sentiment_classification": {
+        "train": {
+          "macro_f1": 0.997,
+          "weighted_f1": 0.9975
+        },
+        "val": {
+          "macro_f1": 0.797,
+          "weighted_f1": 0.8056
+        },
+        "test": {
+          "macro_f1": 0.8339,
+          "weighted_f1": 0.8424
+        }
+      }
+    },
+    "model2": {
+      "aspect_detection": {
+        "train": {
+          "hamming_loss": 0.0765,
+          "micro": {
+            "precision": 0.6799,
+            "recall": 0.9419,
+            "f1": 0.7897
+          },
+          "macro": {
+            "precision": 0.7158,
+            "recall": 0.9556,
+            "f1": 0.8137
+          },
+          "per_aspect_f1": {
+            "network_coverage": 0.7407,
+            "internet_speed": 0.7399,
+            "call_quality": 0.8208,
+            "customer_support": 0.8365,
+            "billing": 0.8472,
+            "recharge_plans": 0.744,
+            "data_balance": 0.8352,
+            "roaming": 1.0,
+            "sim_activation": 0.8382,
+            "mobile_app_experience": 0.8235,
+            "ott_bundle_services": 0.9091,
+            "pricing": 0.6792,
+            "value_for_money": 0.7327,
+            "data_validity": 0.7143,
+            "5g_experience": 0.9444
+          }
+        },
+        "val": {
+          "hamming_loss": 0.0858,
+          "micro": {
+            "precision": 0.6709,
+            "recall": 0.8989,
+            "f1": 0.7683
+          },
+          "macro": {
+            "precision": 0.6961,
+            "recall": 0.9176,
+            "f1": 0.7851
+          },
+          "per_aspect_f1": {
+            "network_coverage": 0.7368,
+            "internet_speed": 0.716,
+            "call_quality": 0.7407,
+            "customer_support": 0.7324,
+            "billing": 0.7407,
+            "recharge_plans": 0.7561,
+            "data_balance": 0.8889,
+            "roaming": 1.0,
+            "sim_activation": 0.7826,
+            "mobile_app_experience": 0.8846,
+            "ott_bundle_services": 0.8966,
+            "pricing": 0.6575,
+            "value_for_money": 0.7246,
+            "data_validity": 0.6471,
+            "5g_experience": 0.8718
+          }
+        },
+        "test": {
+          "hamming_loss": 0.0916,
+          "micro": {
+            "precision": 0.638,
+            "recall": 0.915,
+            "f1": 0.7518
+          },
+          "macro": {
+            "precision": 0.661,
+            "recall": 0.9355,
+            "f1": 0.7674
+          },
+          "per_aspect_f1": {
+            "network_coverage": 0.7838,
+            "internet_speed": 0.6923,
+            "call_quality": 0.717,
+            "customer_support": 0.8169,
+            "billing": 0.75,
+            "recharge_plans": 0.7523,
+            "data_balance": 0.8571,
+            "roaming": 1.0,
+            "sim_activation": 0.6667,
+            "mobile_app_experience": 0.8,
+            "ott_bundle_services": 0.7111,
+            "pricing": 0.7209,
+            "value_for_money": 0.6316,
+            "data_validity": 0.6842,
+            "5g_experience": 0.9268
+          }
+        }
+      },
+      "sentiment_classification": {
+        "train": {
+          "network_coverage": {
+            "accuracy": 0.7176,
+            "macro_f1": 0.7064,
+            "weighted_f1": 0.715,
+            "n_samples": 131
+          },
+          "internet_speed": {
+            "accuracy": 0.6933,
+            "macro_f1": 0.6764,
+            "weighted_f1": 0.7144,
+            "n_samples": 163
+          },
+          "call_quality": {
+            "accuracy": 0.7556,
+            "macro_f1": 0.7031,
+            "weighted_f1": 0.7489,
+            "n_samples": 90
+          },
+          "customer_support": {
+            "accuracy": 0.8041,
+            "macro_f1": 0.7763,
+            "weighted_f1": 0.8241,
+            "n_samples": 148
+          },
+          "billing": {
+            "accuracy": 0.7653,
+            "macro_f1": 0.7613,
+            "weighted_f1": 0.7637,
+            "n_samples": 98
+          },
+          "recharge_plans": {
+            "accuracy": 0.7719,
+            "macro_f1": 0.7467,
+            "weighted_f1": 0.7899,
+            "n_samples": 171
+          },
+          "data_balance": {
+            "accuracy": 0.7792,
+            "macro_f1": 0.7023,
+            "weighted_f1": 0.7773,
+            "n_samples": 77
+          },
+          "roaming": {
+            "accuracy": 0.75,
+            "macro_f1": 0.7415,
+            "weighted_f1": 0.7614,
+            "n_samples": 52
+          },
+          "sim_activation": {
+            "accuracy": 0.8947,
+            "macro_f1": 0.8898,
+            "weighted_f1": 0.8941,
+            "n_samples": 57
+          },
+          "mobile_app_experience": {
+            "accuracy": 0.8333,
+            "macro_f1": 0.8182,
+            "weighted_f1": 0.8342,
+            "n_samples": 102
+          },
+          "ott_bundle_services": {
+            "accuracy": 0.7524,
+            "macro_f1": 0.7336,
+            "weighted_f1": 0.7528,
+            "n_samples": 105
+          },
+          "pricing": {
+            "accuracy": 0.7769,
+            "macro_f1": 0.7091,
+            "weighted_f1": 0.7784,
+            "n_samples": 130
+          },
+          "value_for_money": {
+            "accuracy": 0.7727,
+            "macro_f1": 0.7375,
+            "weighted_f1": 0.7826,
+            "n_samples": 132
+          },
+          "data_validity": {
+            "accuracy": 0.8052,
+            "macro_f1": 0.7336,
+            "weighted_f1": 0.7988,
+            "n_samples": 77
+          },
+          "5g_experience": {
+            "accuracy": 0.75,
+            "macro_f1": 0.7234,
+            "weighted_f1": 0.7566,
+            "n_samples": 68
+          },
+          "_overall": {
+            "accuracy": 0.7689,
+            "macro_f1": 0.7411,
+            "weighted_f1": 0.7748,
+            "n_samples": 1601
+          }
+        },
+        "val": {
+          "network_coverage": {
+            "accuracy": 0.6774,
+            "macro_f1": 0.663,
+            "weighted_f1": 0.6873,
+            "n_samples": 31
+          },
+          "internet_speed": {
+            "accuracy": 0.75,
+            "macro_f1": 0.7551,
+            "weighted_f1": 0.7675,
+            "n_samples": 32
+          },
+          "call_quality": {
+            "accuracy": 0.6087,
+            "macro_f1": 0.5815,
+            "weighted_f1": 0.6,
+            "n_samples": 23
+          },
+          "customer_support": {
+            "accuracy": 0.5294,
+            "macro_f1": 0.5233,
+            "weighted_f1": 0.5463,
+            "n_samples": 34
+          },
+          "billing": {
+            "accuracy": 0.6957,
+            "macro_f1": 0.6694,
+            "weighted_f1": 0.7025,
+            "n_samples": 23
+          },
+          "recharge_plans": {
+            "accuracy": 0.7105,
+            "macro_f1": 0.7014,
+            "weighted_f1": 0.7217,
+            "n_samples": 38
+          },
+          "data_balance": {
+            "accuracy": 0.7,
+            "macro_f1": 0.6279,
+            "weighted_f1": 0.6807,
+            "n_samples": 20
+          },
+          "roaming": {
+            "accuracy": 0.7273,
+            "macro_f1": 0.7778,
+            "weighted_f1": 0.7273,
+            "n_samples": 11
+          },
+          "sim_activation": {
+            "accuracy": 0.4444,
+            "macro_f1": 0.4508,
+            "weighted_f1": 0.4931,
+            "n_samples": 9
+          },
+          "mobile_app_experience": {
+            "accuracy": 0.7826,
+            "macro_f1": 0.7542,
+            "weighted_f1": 0.7778,
+            "n_samples": 23
+          },
+          "ott_bundle_services": {
+            "accuracy": 0.7241,
+            "macro_f1": 0.7147,
+            "weighted_f1": 0.727,
+            "n_samples": 29
+          },
+          "pricing": {
+            "accuracy": 0.76,
+            "macro_f1": 0.7333,
+            "weighted_f1": 0.752,
+            "n_samples": 25
+          },
+          "value_for_money": {
+            "accuracy": 0.7241,
+            "macro_f1": 0.7049,
+            "weighted_f1": 0.7461,
+            "n_samples": 29
+          },
+          "data_validity": {
+            "accuracy": 0.75,
+            "macro_f1": 0.7389,
+            "weighted_f1": 0.7542,
+            "n_samples": 12
+          },
+          "5g_experience": {
+            "accuracy": 0.8235,
+            "macro_f1": 0.8164,
+            "weighted_f1": 0.8285,
+            "n_samples": 17
+          },
+          "_overall": {
+            "accuracy": 0.6966,
+            "macro_f1": 0.6808,
+            "weighted_f1": 0.7028,
+            "n_samples": 356
+          }
+        },
+        "test": {
+          "network_coverage": {
+            "accuracy": 0.6562,
+            "macro_f1": 0.6175,
+            "weighted_f1": 0.665,
+            "n_samples": 32
+          },
+          "internet_speed": {
+            "accuracy": 0.7419,
+            "macro_f1": 0.7295,
+            "weighted_f1": 0.7417,
+            "n_samples": 31
+          },
+          "call_quality": {
+            "accuracy": 0.6667,
+            "macro_f1": 0.6243,
+            "weighted_f1": 0.6485,
+            "n_samples": 21
+          },
+          "customer_support": {
+            "accuracy": 0.75,
+            "macro_f1": 0.7104,
+            "weighted_f1": 0.7796,
+            "n_samples": 32
+          },
+          "billing": {
+            "accuracy": 0.65,
+            "macro_f1": 0.5787,
+            "weighted_f1": 0.6424,
+            "n_samples": 20
+          },
+          "recharge_plans": {
+            "accuracy": 0.6471,
+            "macro_f1": 0.6445,
+            "weighted_f1": 0.6619,
+            "n_samples": 51
+          },
+          "data_balance": {
+            "accuracy": 0.6667,
+            "macro_f1": 0.6278,
+            "weighted_f1": 0.5931,
+            "n_samples": 12
+          },
+          "roaming": {
+            "accuracy": 0.6,
+            "macro_f1": 0.6111,
+            "weighted_f1": 0.6167,
+            "n_samples": 10
+          },
+          "sim_activation": {
+            "accuracy": 0.8333,
+            "macro_f1": 0.6,
+            "weighted_f1": 0.7667,
+            "n_samples": 6
+          },
+          "mobile_app_experience": {
+            "accuracy": 0.7895,
+            "macro_f1": 0.7897,
+            "weighted_f1": 0.7887,
+            "n_samples": 19
+          },
+          "ott_bundle_services": {
+            "accuracy": 0.6471,
+            "macro_f1": 0.6167,
+            "weighted_f1": 0.6441,
+            "n_samples": 17
+          },
+          "pricing": {
+            "accuracy": 0.6452,
+            "macro_f1": 0.6444,
+            "weighted_f1": 0.6387,
+            "n_samples": 31
+          },
+          "value_for_money": {
+            "accuracy": 0.7308,
+            "macro_f1": 0.6716,
+            "weighted_f1": 0.7305,
+            "n_samples": 26
+          },
+          "data_validity": {
+            "accuracy": 0.7857,
+            "macro_f1": 0.7602,
+            "weighted_f1": 0.7737,
+            "n_samples": 14
+          },
+          "5g_experience": {
+            "accuracy": 0.5263,
+            "macro_f1": 0.4916,
+            "weighted_f1": 0.5678,
+            "n_samples": 19
+          },
+          "_overall": {
+            "accuracy": 0.6833,
+            "macro_f1": 0.6651,
+            "weighted_f1": 0.6834,
+            "n_samples": 341
+          }
+        }
+      }
+    }
+  },
+  "hardware_comparison": {
+    "training_time_s": {
+      "model1": 3.455,
+      "model2": 0.0
+    },
+    "inference_ms_per_sample": {
+      "model1": 0.0178,
+      "model2": 0.0
+    },
+    "peak_memory_mb": {
+      "model1": 0.955,
+      "model2": 1.273
+    },
+    "model_size_mb": {
+      "model1": 0.3811,
+      "model2": 253.0
+    }
+  },
+  "recommendation": {
+    "recommended_model": "Model 2 (DistilBERT)",
+    "justification": "DistilBERT shows significant improvement: +0.752 aspect F1, +0.665 sentiment F1. The accuracy gain justifies the increased inference latency.",
+    "decision_factors": {
+      "aspect_f1_gain": 0.7518,
+      "sentiment_f1_gain": 0.6651,
+      "speed_ratio_m2_vs_m1": 0.0,
+      "size_ratio_m2_vs_m1": 663.9
+    },
+    "limitations": [
+      "Model 1: Cannot capture word order or context (TF-IDF bag-of-words limitation)",
+      "Model 1: Struggles with sarcasm and implicit sentiment",
+      "Model 2: Slow inference on CPU (~100x slower than LR)",
+      "Model 2: Large model size (~253 MB) may be problematic for edge deployment",
+      "Both: Limited training data (1000 samples) \u2014 production models need more data",
+      "Both: Neutral class is underrepresented and harder to predict"
+    ],
+    "challenges": [
+      "PyTorch incompatibility with Python 3.13 required downgrade to 3.11",
+      "Sentence-transformers dependency conflicts with newer numpy/transformers",
+      "Small dataset (1000 samples) limits deep learning model potential",
+      "Multi-label stratification is difficult with many rare aspect combinations",
+      "Per-aspect sentiment models have very few samples for some aspects (roaming, sim_activation)",
+      "CPU-only training is very slow for transformer models (~hours per experiment)"
+    ]
+  }
+}
