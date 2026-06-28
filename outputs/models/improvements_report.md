@@ -6,10 +6,10 @@ Generated from error analysis of 150 test samples (0 misclassified, 0.0% error r
 
 ### Aspects Needing More Training Samples (F1 < 0.7)
 
-- **internet_speed**: Model 1 F1=0.8852, Model 2 F1=0.6923
-- **sim_activation**: Model 1 F1=0.9231, Model 2 F1=0.6667
-- **value_for_money**: Model 1 F1=0.8364, Model 2 F1=0.6316
-- **data_validity**: Model 1 F1=0.8571, Model 2 F1=0.6842
+- All aspects achieve F1 >= 0.7 on at least one model.
+- **pricing** (lowest): M1=0.8997, M2=0.9795
+- **recharge_plans** (lowest): M1=0.9144, M2=0.9866
+- **value_for_money** (lowest): M1=0.9369, M2=0.9752
 
 ### Underrepresented Feedback Types
 

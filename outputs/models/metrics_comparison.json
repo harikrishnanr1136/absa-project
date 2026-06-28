@@ -3,156 +3,156 @@
     {
       "Split": "Train",
       "Metric": "Micro-F1",
-      "Model 1 (LR+TF-IDF)": "0.9776",
-      "Model 2 (DistilBERT)": "0.7897",
-      "Delta": "-0.1879 *"
+      "Model 1 (LR+TF-IDF)": "0.9778",
+      "Model 2 (DistilBERT)": "0.9934",
+      "Delta": "+0.0156"
     },
     {
       "Split": "Train",
       "Metric": "Macro-F1",
-      "Model 1 (LR+TF-IDF)": "0.9831",
-      "Model 2 (DistilBERT)": "0.8137",
-      "Delta": "-0.1694 *"
+      "Model 1 (LR+TF-IDF)": "0.9794",
+      "Model 2 (DistilBERT)": "0.9936",
+      "Delta": "+0.0142"
     },
     {
       "Split": "Train",
       "Metric": "Hamming Loss",
-      "Model 1 (LR+TF-IDF)": "0.0070",
-      "Model 2 (DistilBERT)": "0.0765",
-      "Delta": "+0.0695 *"
+      "Model 1 (LR+TF-IDF)": "0.0049",
+      "Model 2 (DistilBERT)": "0.0014",
+      "Delta": "-0.0035"
     },
     {
       "Split": "Val",
       "Metric": "Micro-F1",
-      "Model 1 (LR+TF-IDF)": "0.9109",
-      "Model 2 (DistilBERT)": "0.7683",
-      "Delta": "-0.1426 *"
+      "Model 1 (LR+TF-IDF)": "0.9665",
+      "Model 2 (DistilBERT)": "0.9880",
+      "Delta": "+0.0215"
     },
     {
       "Split": "Val",
       "Metric": "Macro-F1",
-      "Model 1 (LR+TF-IDF)": "0.9146",
-      "Model 2 (DistilBERT)": "0.7851",
-      "Delta": "-0.1295 *"
+      "Model 1 (LR+TF-IDF)": "0.9686",
+      "Model 2 (DistilBERT)": "0.9886",
+      "Delta": "+0.0200"
     },
     {
       "Split": "Val",
       "Metric": "Hamming Loss",
-      "Model 1 (LR+TF-IDF)": "0.0280",
-      "Model 2 (DistilBERT)": "0.0858",
-      "Delta": "+0.0578 *"
+      "Model 1 (LR+TF-IDF)": "0.0073",
+      "Model 2 (DistilBERT)": "0.0026",
+      "Delta": "-0.0047"
     },
     {
       "Split": "Test",
       "Metric": "Micro-F1",
-      "Model 1 (LR+TF-IDF)": "0.8939",
-      "Model 2 (DistilBERT)": "0.7518",
-      "Delta": "-0.1421 *"
+      "Model 1 (LR+TF-IDF)": "0.9611",
+      "Model 2 (DistilBERT)": "0.9876",
+      "Delta": "+0.0265"
     },
     {
       "Split": "Test",
       "Metric": "Macro-F1",
-      "Model 1 (LR+TF-IDF)": "0.9122",
-      "Model 2 (DistilBERT)": "0.7674",
-      "Delta": "-0.1448 *"
+      "Model 1 (LR+TF-IDF)": "0.9652",
+      "Model 2 (DistilBERT)": "0.9882",
+      "Delta": "+0.0230"
     },
     {
       "Split": "Test",
       "Metric": "Hamming Loss",
-      "Model 1 (LR+TF-IDF)": "0.0316",
-      "Model 2 (DistilBERT)": "0.0916",
-      "Delta": "+0.0600 *"
+      "Model 1 (LR+TF-IDF)": "0.0086",
+      "Model 2 (DistilBERT)": "0.0027",
+      "Delta": "-0.0059"
     }
   ],
   "sentiment_classification": [
     {
       "Split": "Train",
       "Metric": "Accuracy",
-      "Model 1": "0.9975",
-      "Model 2": "0.7689",
-      "Delta": "-0.2286 *"
+      "Model 1": "0.9943",
+      "Model 2": "0.9770",
+      "Delta": "-0.0173 *"
     },
     {
       "Split": "Train",
       "Metric": "F1 (macro)",
-      "Model 1": "0.9970",
-      "Model 2": "0.7411",
-      "Delta": "-0.2559 *"
+      "Model 1": "0.9939",
+      "Model 2": "0.9760",
+      "Delta": "-0.0179 *"
     },
     {
       "Split": "Train",
       "Metric": "F1 (weighted)",
-      "Model 1": "0.9975",
-      "Model 2": "0.7748",
-      "Delta": "-0.2227 *"
+      "Model 1": "0.9943",
+      "Model 2": "0.9770",
+      "Delta": "-0.0173 *"
     },
     {
       "Split": "Val",
       "Metric": "Accuracy",
-      "Model 1": "0.8062",
-      "Model 2": "0.6966",
-      "Delta": "-0.1096 *"
+      "Model 1": "0.9746",
+      "Model 2": "0.9579",
+      "Delta": "-0.0167 *"
     },
     {
       "Split": "Val",
       "Metric": "F1 (macro)",
-      "Model 1": "0.7970",
-      "Model 2": "0.6808",
-      "Delta": "-0.1162 *"
+      "Model 1": "0.9735",
+      "Model 2": "0.9547",
+      "Delta": "-0.0188 *"
     },
     {
       "Split": "Val",
       "Metric": "F1 (weighted)",
-      "Model 1": "0.8056",
-      "Model 2": "0.7028",
-      "Delta": "-0.1028 *"
+      "Model 1": "0.9746",
+      "Model 2": "0.9579",
+      "Delta": "-0.0167 *"
     },
     {
       "Split": "Test",
       "Metric": "Accuracy",
-      "Model 1": "0.8446",
-      "Model 2": "0.6833",
-      "Delta": "-0.1613 *"
+      "Model 1": "0.9801",
+      "Model 2": "0.9525",
+      "Delta": "-0.0276 *"
     },
     {
       "Split": "Test",
       "Metric": "F1 (macro)",
-      "Model 1": "0.8339",
-      "Model 2": "0.6651",
-      "Delta": "-0.1688 *"
+      "Model 1": "0.9803",
+      "Model 2": "0.9503",
+      "Delta": "-0.0300 *"
     },
     {
       "Split": "Test",
       "Metric": "F1 (weighted)",
-      "Model 1": "0.8424",
-      "Model 2": "0.6834",
-      "Delta": "-0.1590 *"
+      "Model 1": "0.9801",
+      "Model 2": "0.9525",
+      "Delta": "-0.0276 *"
     }
   ],
   "hardware": [
     {
       "Property": "Training time (seconds)",
-      "Model 1": "3.455",
+      "Model 1": "3.756",
       "Model 2": "0.000",
-      "Delta": "-3.4550"
+      "Delta": "-3.7560"
     },
     {
       "Property": "Inference time (ms/sample)",
-      "Model 1": "0.0178",
+      "Model 1": "0.0025",
       "Model 2": "0.0000",
-      "Delta": "-0.0178"
+      "Delta": "-0.0025"
     },
     {
       "Property": "Peak memory (MB)",
-      "Model 1": "0.955",
-      "Model 2": "1.273",
-      "Delta": "+0.3180 *"
+      "Model 1": "4.641",
+      "Model 2": "14.250",
+      "Delta": "+9.6090 *"
     },
     {
       "Property": "Model size on disk (MB)",
-      "Model 1": "0.3811",
+      "Model 1": "1.5574",
       "Model 2": "253.0",
-      "Delta": "+252.6189 *"
+      "Delta": "+251.4426 *"
     }
   ]
 }

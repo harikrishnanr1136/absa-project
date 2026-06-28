@@ -7,5 +7,5 @@
   "gpu_available": true,
   "gpu_memory_mb": 4077.12,
   "torch_version": "2.11.0+cu128",
-  "peak_inference_memory_mb": 1.273
+  "peak_inference_memory_mb": 14.25
 }

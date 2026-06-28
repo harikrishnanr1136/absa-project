@@ -3,450 +3,450 @@
     "network_coverage": {
       "cm": [
         [
-          4,
+          159,
           1,
-          1
+          0
+        ],
+        [
+          2,
+          154,
+          0
         ],
         [
           0,
-          12,
-          1
-        ],
-        [
-          3,
-          2,
-          8
+          0,
+          72
         ]
       ],
-      "accuracy": 0.75,
-      "confusion_score": 0.7949,
+      "accuracy": 0.9923,
+      "confusion_score": 0.0191,
       "most_confused": {
-        "from": "neutral",
+        "from": "negative",
         "to": "positive",
-        "percentage": 23.1
+        "percentage": 1.3
       }
     },
     "internet_speed": {
       "cm": [
         [
-          13,
-          0,
+          194,
+          4,
           0
         ],
         [
-          2,
-          8,
+          3,
+          194,
           0
         ],
         [
           2,
           1,
-          5
+          107
         ]
       ],
-      "accuracy": 0.8387,
-      "confusion_score": 0.575,
+      "accuracy": 0.9802,
+      "confusion_score": 0.0627,
       "most_confused": {
-        "from": "neutral",
-        "to": "positive",
-        "percentage": 25.0
+        "from": "positive",
+        "to": "negative",
+        "percentage": 2.0
       }
     },
     "call_quality": {
       "cm": [
         [
+          79,
           3,
-          2,
           0
         ],
         [
           1,
-          9,
+          83,
           0
         ],
         [
-          1,
           0,
-          5
+          0,
+          48
         ]
       ],
-      "accuracy": 0.8095,
-      "confusion_score": 0.6667,
+      "accuracy": 0.9813,
+      "confusion_score": 0.0485,
       "most_confused": {
         "from": "positive",
         "to": "negative",
-        "percentage": 40.0
+        "percentage": 3.7
       }
     },
     "customer_support": {
       "cm": [
         [
-          10,
-          2,
+          91,
+          0,
           0
         ],
         [
           0,
-          17,
+          105,
           0
         ],
         [
           1,
-          1,
-          1
+          0,
+          51
         ]
       ],
-      "accuracy": 0.875,
-      "confusion_score": 0.8333,
+      "accuracy": 0.996,
+      "confusion_score": 0.0192,
       "most_confused": {
         "from": "neutral",
         "to": "positive",
-        "percentage": 33.3
+        "percentage": 1.9
       }
     },
     "billing": {
       "cm": [
         [
-          9,
+          81,
           0,
+          0
+        ],
+        [
+          0,
+          130,
           0
         ],
         [
           1,
-          7,
-          0
-        ],
-        [
-          0,
-          0,
-          3
+          1,
+          40
         ]
       ],
-      "accuracy": 0.95,
-      "confusion_score": 0.125,
+      "accuracy": 0.9921,
+      "confusion_score": 0.0476,
       "most_confused": {
-        "from": "negative",
+        "from": "neutral",
         "to": "positive",
-        "percentage": 12.5
+        "percentage": 2.4
       }
     },
     "recharge_plans": {
       "cm": [
         [
-          15,
-          2,
-          0
-        ],
-        [
-          1,
-          20,
-          0
+          102,
+          0,
+          2
         ],
         [
           4,
-          0,
-          9
+          77,
+          0
+        ],
+        [
+          2,
+          2,
+          69
         ]
       ],
-      "accuracy": 0.8627,
-      "confusion_score": 0.473,
+      "accuracy": 0.9612,
+      "confusion_score": 0.1234,
       "most_confused": {
-        "from": "neutral",
+        "from": "negative",
         "to": "positive",
-        "percentage": 30.8
+        "percentage": 4.9
       }
     },
     "data_balance": {
       "cm": [
         [
-          4,
+          52,
           0,
           0
         ],
         [
-          0,
-          3,
+          1,
+          113,
           0
         ],
         [
-          2,
           0,
-          3
+          1,
+          44
         ]
       ],
-      "accuracy": 0.8333,
-      "confusion_score": 0.4,
+      "accuracy": 0.9905,
+      "confusion_score": 0.031,
       "most_confused": {
         "from": "neutral",
-        "to": "positive",
-        "percentage": 40.0
+        "to": "negative",
+        "percentage": 2.2
       }
     },
     "roaming": {
       "cm": [
         [
-          3,
+          48,
           0,
           0
         ],
         [
           2,
-          3,
+          50,
           0
         ],
         [
           0,
           0,
-          2
+          24
         ]
       ],
-      "accuracy": 0.8,
-      "confusion_score": 0.4,
+      "accuracy": 0.9839,
+      "confusion_score": 0.0385,
       "most_confused": {
         "from": "negative",
         "to": "positive",
-        "percentage": 40.0
+        "percentage": 3.8
       }
     },
     "sim_activation": {
       "cm": [
         [
-          2,
-          0,
-          0
-        ],
-        [
-          0,
+          63,
           3,
           0
         ],
         [
           0,
+          49,
+          0
+        ],
+        [
           0,
-          1
+          0,
+          32
         ]
       ],
-      "accuracy": 1.0,
-      "confusion_score": 0.0,
+      "accuracy": 0.9796,
+      "confusion_score": 0.0455,
       "most_confused": {
         "from": "positive",
-        "to": "positive",
-        "percentage": 0.0
+        "to": "negative",
+        "percentage": 4.5
       }
     },
     "mobile_app_experience": {
       "cm": [
         [
-          6,
-          0,
+          76,
+          1,
           1
         ],
         [
-          1,
-          6,
-          0
+          0,
+          62,
+          1
         ],
         [
           0,
-          1,
-          4
+          5,
+          28
         ]
       ],
-      "accuracy": 0.8421,
-      "confusion_score": 0.4857,
+      "accuracy": 0.954,
+      "confusion_score": 0.193,
       "most_confused": {
         "from": "neutral",
         "to": "negative",
-        "percentage": 20.0
+        "percentage": 15.2
       }
     },
     "ott_bundle_services": {
       "cm": [
         [
-          7,
-          0,
+          70,
+          2,
           0
         ],
         [
-          1,
-          5,
-          1
+          2,
+          39,
+          0
         ],
         [
           0,
           0,
-          3
+          32
         ]
       ],
-      "accuracy": 0.8824,
-      "confusion_score": 0.2857,
+      "accuracy": 0.9724,
+      "confusion_score": 0.0766,
       "most_confused": {
         "from": "negative",
         "to": "positive",
-        "percentage": 14.3
+        "percentage": 4.9
       }
     },
     "pricing": {
       "cm": [
         [
-          11,
-          2,
+          112,
+          1,
+          0
+        ],
+        [
+          1,
+          109,
           0
         ],
         [
           0,
-          10,
-          0
-        ],
-        [
-          2,
           1,
-          5
+          66
         ]
       ],
-      "accuracy": 0.8387,
-      "confusion_score": 0.5288,
+      "accuracy": 0.9897,
+      "confusion_score": 0.0329,
       "most_confused": {
         "from": "neutral",
-        "to": "positive",
-        "percentage": 25.0
+        "to": "negative",
+        "percentage": 1.5
       }
     },
     "value_for_money": {
       "cm": [
         [
-          8,
-          0,
-          0
-        ],
-        [
-          0,
-          13,
-          0
-        ],
-        [
+          83,
           3,
+          0
+        ],
+        [
           0,
-          2
+          64,
+          0
+        ],
+        [
+          2,
+          1,
+          45
         ]
       ],
-      "accuracy": 0.8846,
-      "confusion_score": 0.6,
+      "accuracy": 0.9697,
+      "confusion_score": 0.0974,
       "most_confused": {
         "from": "neutral",
         "to": "positive",
-        "percentage": 60.0
+        "percentage": 4.2
       }
     },
     "data_validity": {
       "cm": [
         [
-          5,
-          0,
-          0
-        ],
-        [
-          0,
-          5,
-          0
-        ],
-        [
+          46,
           1,
+          0
+        ],
+        [
+          5,
+          67,
+          0
+        ],
+        [
           0,
-          3
+          2,
+          28
         ]
       ],
-      "accuracy": 0.9286,
-      "confusion_score": 0.25,
+      "accuracy": 0.9463,
+      "confusion_score": 0.1574,
       "most_confused": {
-        "from": "neutral",
+        "from": "negative",
         "to": "positive",
-        "percentage": 25.0
+        "percentage": 6.9
       }
     },
     "5g_experience": {
       "cm": [
         [
-          10,
-          2,
-          0
-        ],
-        [
-          1,
-          1,
+          63,
+          0,
           1
         ],
         [
-          2,
+          1,
+          69,
+          0
+        ],
+        [
           0,
-          2
+          1,
+          34
         ]
       ],
-      "accuracy": 0.6842,
-      "confusion_score": 1.3333,
+      "accuracy": 0.9822,
+      "confusion_score": 0.0585,
       "most_confused": {
         "from": "neutral",
-        "to": "positive",
-        "percentage": 50.0
+        "to": "negative",
+        "percentage": 2.9
       }
     }
   },
   "model2_confusion": {},
   "model1_top3_confused": [
-    "5g_experience",
-    "customer_support",
-    "network_coverage"
+    "mobile_app_experience",
+    "data_validity",
+    "recharge_plans"
   ],
   "model2_top3_confused": [],
   "misclassified_examples": {
-    "5g_experience": [
+    "mobile_app_experience": [
       {
-        "feedback": "The network coverage is wide but the call quality doesn't match. I get full signal bars but voice ca",
-        "true": "positive",
-        "predicted": "negative"
-      },
-      {
-        "feedback": "Their 5G coverage is basically non-existent outside metro cities. Do not waste your money on premium",
-        "true": "negative",
-        "predicted": "positive"
-      },
-      {
-        "feedback": "5G experience is okay in my area. Sometimes fast sometimes regular.",
-        "true": "neutral",
-        "predicted": "positive"
-      }
-    ],
-    "customer_support": [
-      {
-        "feedback": "Called about a billing error and the support agent corrected it immediately.",
-        "true": "positive",
-        "predicted": "negative"
-      },
-      {
-        "feedback": "Called support about my reacharg not getting activated. agent was helpful and fixed it in 2 mins. go",
-        "true": "positive",
-        "predicted": "negative"
-      },
-      {
-        "feedback": "SIM activation was delayed because of a system error on their end. The app showed my documents were ",
-        "true": "neutral",
-        "predicted": "negative"
-      }
-    ],
-    "network_coverage": [
-      {
-        "feedback": "Standard. No complaints but no praise either.",
+        "feedback": "App crashes constantly in Nashik.",
         "true": "neutral",
         "predicted": "negative"
       },
       {
-        "feedback": "Horrible network coverage on highways between the two cities. My call dropped 5 times during a 2 hou",
-        "true": "negative",
+        "feedback": "No strong feelings about app in Borivali.",
+        "true": "neutral",
+        "predicted": "negative"
+      },
+      {
+        "feedback": "Standard speed and good app experience.",
+        "true": "positive",
         "predicted": "neutral"
+      }
+    ],
+    "data_validity": [
+      {
+        "feedback": "validty poor but pricing is affordable in Guwahati.",
+        "true": "negative",
+        "predicted": "positive"
       },
       {
-        "feedback": "The coverage along my daily 40-kilometer commute route through multiple zones is consistent and reli",
+        "feedback": "Validity poor but pricing is affordable in Indiranagar.",
+        "true": "negative",
+        "predicted": "positive"
+      },
+      {
+        "feedback": "Validity too short at this price.",
         "true": "neutral",
+        "predicted": "negative"
+      }
+    ],
+    "recharge_plans": [
+      {
+        "feedback": "Both plan features and streaming bundlee disappoint in Andheri.",
+        "true": "negative",
+        "predicted": "positive"
+      },
+      {
+        "feedback": "plans r overpriced for what they offer.",
+        "true": "neutral",
+        "predicted": "negative"
+      },
+      {
+        "feedback": "plans worse ev quarter this year in bhopal",
+        "true": "negative",
         "predicted": "positive"
       }
     ]

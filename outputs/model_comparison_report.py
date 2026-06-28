@@ -317,21 +317,48 @@ def main():
     m1_hw_path = os.path.join(MODELS_DIR, "model1_hardware_report.json")
     m2_hw_path = os.path.join(MODELS_DIR, "model2_hardware_report.json")
 
-    # Load Model 1 metrics from experiment log
+    # Load Model 1 metrics — direct file first, experiment log as fallback
     m1_metrics = {}
-    if os.path.exists(exp_log_path):
+    if os.path.exists(m1_metrics_path):
+        m1_metrics = load_json(m1_metrics_path)
+
+    if not m1_metrics and os.path.exists(exp_log_path):
         exp_log = load_json(exp_log_path)
         for entry in exp_log:
             if entry.get("experiment_id") == "model1_lr_tfidf":
                 m1_metrics = entry
                 break
 
-    if not m1_metrics and os.path.exists(m1_metrics_path):
-        m1_metrics = load_json(m1_metrics_path)
-
     m2_metrics = load_json(m2_metrics_path)
     m1_hw = load_json(m1_hw_path)
     m2_hw = load_json(m2_hw_path)
+
+    # Fallback: if Model 2 hardware report has zeros, load from experiment_log
+    if os.path.exists(exp_log_path):
+        exp_log = load_json(exp_log_path)
+
+        # Model 2 hardware fallback
+        m2_hw_training_time = safe_get(m2_hw, "training", "time_seconds", default=0)
+        m2_hw_inference = safe_get(m2_hw, "inference", "per_sample_avg_ms", default=0)
+        if m2_hw_training_time == 0 or m2_hw_inference == 0:
+            for entry in exp_log:
+                if entry.get("experiment_id") == "model2_distilbert_finetuned":
+                    if m2_hw_training_time == 0:
+                        m2_hw.setdefault("training", {})["time_seconds"] = entry.get("training_time_seconds", 0)
+                    if m2_hw_inference == 0:
+                        m2_hw.setdefault("inference", {})["per_sample_avg_ms"] = entry.get("inference_time_ms_per_sample", 0)
+                    m2_hw["peak_inference_memory_mb"] = entry.get("peak_memory_mb", 0)
+                    m2_hw.setdefault("model_size", {})["total_mb"] = entry.get("model_size_mb", 253)
+                    logger.info("Model 2 hardware: supplemented from experiment_log.json")
+                    break
+
+        # Model 2 metrics fallback (if file is stale/missing)
+        if not m2_metrics:
+            for entry in exp_log:
+                if entry.get("experiment_id") == "model2_distilbert_finetuned":
+                    m2_metrics = entry
+                    logger.info("Model 2 metrics: loaded from experiment_log.json")
+                    break
 
     logger.info(f"Model 1 metrics: {'loaded' if m1_metrics else 'NOT FOUND'}")
     logger.info(f"Model 2 metrics: {'loaded' if m2_metrics else 'NOT FOUND'}")

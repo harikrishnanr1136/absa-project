@@ -2,396 +2,396 @@
   "model": "Model 1 \u2014 Logistic Regression + TF-IDF",
   "aspect_detection": {
     "train": {
-      "hamming_loss": 0.007,
+      "hamming_loss": 0.0049,
       "micro": {
-        "precision": 0.9614,
-        "recall": 0.9944,
-        "f1": 0.9776
+        "precision": 0.9579,
+        "recall": 0.9986,
+        "f1": 0.9778
       },
       "macro": {
-        "precision": 0.9707,
-        "recall": 0.9963,
-        "f1": 0.9831
+        "precision": 0.9609,
+        "recall": 0.9991,
+        "f1": 0.9794
       },
       "per_aspect_f1": {
-        "network_coverage": 0.9597,
-        "internet_speed": 0.9728,
-        "call_quality": 0.9945,
-        "customer_support": 1.0,
-        "billing": 0.9849,
-        "recharge_plans": 0.9348,
-        "data_balance": 1.0,
-        "roaming": 1.0,
-        "sim_activation": 1.0,
-        "mobile_app_experience": 0.9903,
-        "ott_bundle_services": 1.0,
-        "pricing": 0.9489,
-        "value_for_money": 0.9668,
-        "data_validity": 0.9935,
+        "network_coverage": 0.9821,
+        "internet_speed": 0.9808,
+        "call_quality": 0.9682,
+        "customer_support": 0.9892,
+        "billing": 0.9838,
+        "recharge_plans": 0.943,
+        "data_balance": 0.9636,
+        "roaming": 0.9948,
+        "sim_activation": 0.997,
+        "mobile_app_experience": 0.995,
+        "ott_bundle_services": 0.9923,
+        "pricing": 0.9501,
+        "value_for_money": 0.9716,
+        "data_validity": 0.9792,
         "5g_experience": 1.0
       }
     },
     "val": {
-      "hamming_loss": 0.028,
+      "hamming_loss": 0.0073,
       "micro": {
-        "precision": 0.9174,
-        "recall": 0.9045,
-        "f1": 0.9109
+        "precision": 0.9468,
+        "recall": 0.987,
+        "f1": 0.9665
       },
       "macro": {
-        "precision": 0.9249,
-        "recall": 0.9072,
-        "f1": 0.9146
+        "precision": 0.9497,
+        "recall": 0.9894,
+        "f1": 0.9686
       },
       "per_aspect_f1": {
-        "network_coverage": 0.7869,
-        "internet_speed": 0.9394,
-        "call_quality": 0.9302,
-        "customer_support": 0.9706,
-        "billing": 0.9565,
-        "recharge_plans": 0.8947,
-        "data_balance": 0.9744,
-        "roaming": 1.0,
-        "sim_activation": 0.9412,
-        "mobile_app_experience": 0.9778,
-        "ott_bundle_services": 0.9455,
-        "pricing": 0.8148,
-        "value_for_money": 0.8727,
-        "data_validity": 0.8,
-        "5g_experience": 0.9143
+        "network_coverage": 0.971,
+        "internet_speed": 0.9743,
+        "call_quality": 0.9645,
+        "customer_support": 0.9873,
+        "billing": 0.9749,
+        "recharge_plans": 0.9115,
+        "data_balance": 0.9284,
+        "roaming": 0.9932,
+        "sim_activation": 0.9882,
+        "mobile_app_experience": 0.9944,
+        "ott_bundle_services": 0.9888,
+        "pricing": 0.9264,
+        "value_for_money": 0.9611,
+        "data_validity": 0.9646,
+        "5g_experience": 1.0
       }
     },
     "test": {
-      "hamming_loss": 0.0316,
+      "hamming_loss": 0.0086,
       "micro": {
-        "precision": 0.9116,
-        "recall": 0.8768,
-        "f1": 0.8939
+        "precision": 0.9388,
+        "recall": 0.9845,
+        "f1": 0.9611
       },
       "macro": {
-        "precision": 0.9269,
-        "recall": 0.902,
-        "f1": 0.9122
+        "precision": 0.9455,
+        "recall": 0.9867,
+        "f1": 0.9652
       },
       "per_aspect_f1": {
-        "network_coverage": 0.8136,
-        "internet_speed": 0.8852,
-        "call_quality": 0.9231,
-        "customer_support": 0.9841,
-        "billing": 0.9189,
-        "recharge_plans": 0.8333,
-        "data_balance": 1.0,
-        "roaming": 1.0,
-        "sim_activation": 0.9231,
-        "mobile_app_experience": 0.9474,
-        "ott_bundle_services": 0.9697,
-        "pricing": 0.8182,
-        "value_for_money": 0.8364,
-        "data_validity": 0.8571,
-        "5g_experience": 0.973
+        "network_coverage": 0.9673,
+        "internet_speed": 0.9694,
+        "call_quality": 0.9682,
+        "customer_support": 0.9899,
+        "billing": 0.9729,
+        "recharge_plans": 0.9144,
+        "data_balance": 0.9375,
+        "roaming": 0.996,
+        "sim_activation": 0.9966,
+        "mobile_app_experience": 0.9913,
+        "ott_bundle_services": 0.9796,
+        "pricing": 0.8997,
+        "value_for_money": 0.9369,
+        "data_validity": 0.9577,
+        "5g_experience": 1.0
       }
     }
   },
   "sentiment_classification": {
     "train": {
       "network_coverage": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 131
+        "accuracy": 0.9943,
+        "macro_f1": 0.9942,
+        "weighted_f1": 0.9943,
+        "n_samples": 1930
       },
       "internet_speed": {
-        "accuracy": 0.9939,
-        "macro_f1": 0.9922,
-        "weighted_f1": 0.9938,
-        "n_samples": 163
+        "accuracy": 0.9956,
+        "macro_f1": 0.9952,
+        "weighted_f1": 0.9956,
+        "n_samples": 2255
       },
       "call_quality": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 90
+        "accuracy": 0.9908,
+        "macro_f1": 0.9901,
+        "weighted_f1": 0.9908,
+        "n_samples": 974
       },
       "customer_support": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 148
+        "accuracy": 0.9951,
+        "macro_f1": 0.994,
+        "weighted_f1": 0.9951,
+        "n_samples": 1232
       },
       "billing": {
-        "accuracy": 0.9898,
-        "macro_f1": 0.9876,
-        "weighted_f1": 0.9899,
-        "n_samples": 98
+        "accuracy": 0.9959,
+        "macro_f1": 0.9954,
+        "weighted_f1": 0.9959,
+        "n_samples": 1217
       },
       "recharge_plans": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 171
+        "accuracy": 0.9954,
+        "macro_f1": 0.9954,
+        "weighted_f1": 0.9954,
+        "n_samples": 1077
       },
       "data_balance": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 77
+        "accuracy": 0.9928,
+        "macro_f1": 0.9917,
+        "weighted_f1": 0.9928,
+        "n_samples": 966
       },
       "roaming": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 52
+        "accuracy": 0.9955,
+        "macro_f1": 0.9952,
+        "weighted_f1": 0.9955,
+        "n_samples": 671
       },
       "sim_activation": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 57
+        "accuracy": 0.9985,
+        "macro_f1": 0.9987,
+        "weighted_f1": 0.9985,
+        "n_samples": 657
       },
       "mobile_app_experience": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 102
+        "accuracy": 0.9913,
+        "macro_f1": 0.9901,
+        "weighted_f1": 0.9913,
+        "n_samples": 802
       },
       "ott_bundle_services": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 105
+        "accuracy": 0.9928,
+        "macro_f1": 0.9935,
+        "weighted_f1": 0.9928,
+        "n_samples": 835
       },
       "pricing": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 130
+        "accuracy": 0.9959,
+        "macro_f1": 0.9958,
+        "weighted_f1": 0.9959,
+        "n_samples": 1221
       },
       "value_for_money": {
-        "accuracy": 0.9848,
-        "macro_f1": 0.9822,
-        "weighted_f1": 0.9849,
-        "n_samples": 132
+        "accuracy": 0.989,
+        "macro_f1": 0.9886,
+        "weighted_f1": 0.989,
+        "n_samples": 908
       },
       "data_validity": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 77
+        "accuracy": 0.9941,
+        "macro_f1": 0.994,
+        "weighted_f1": 0.9941,
+        "n_samples": 682
       },
       "5g_experience": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 68
+        "accuracy": 0.9949,
+        "macro_f1": 0.9934,
+        "weighted_f1": 0.9949,
+        "n_samples": 783
       },
       "_overall": {
-        "accuracy": 0.9975,
-        "macro_f1": 0.997,
-        "weighted_f1": 0.9975,
-        "n_samples": 1601
+        "accuracy": 0.9943,
+        "macro_f1": 0.9939,
+        "weighted_f1": 0.9943,
+        "n_samples": 16210
       }
     },
     "val": {
       "network_coverage": {
-        "accuracy": 0.8065,
-        "macro_f1": 0.7946,
-        "weighted_f1": 0.8026,
-        "n_samples": 31
+        "accuracy": 0.9757,
+        "macro_f1": 0.9727,
+        "weighted_f1": 0.9756,
+        "n_samples": 411
       },
       "internet_speed": {
-        "accuracy": 0.9062,
-        "macro_f1": 0.9041,
-        "weighted_f1": 0.9062,
-        "n_samples": 32
+        "accuracy": 0.9698,
+        "macro_f1": 0.9705,
+        "weighted_f1": 0.9698,
+        "n_samples": 463
       },
       "call_quality": {
-        "accuracy": 0.7391,
-        "macro_f1": 0.7413,
-        "weighted_f1": 0.7382,
-        "n_samples": 23
+        "accuracy": 0.9872,
+        "macro_f1": 0.9872,
+        "weighted_f1": 0.9872,
+        "n_samples": 234
       },
       "customer_support": {
-        "accuracy": 0.8235,
-        "macro_f1": 0.812,
-        "weighted_f1": 0.8259,
-        "n_samples": 34
+        "accuracy": 0.9747,
+        "macro_f1": 0.9747,
+        "weighted_f1": 0.9748,
+        "n_samples": 277
       },
       "billing": {
-        "accuracy": 0.7826,
-        "macro_f1": 0.6907,
-        "weighted_f1": 0.7754,
-        "n_samples": 23
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "n_samples": 236
       },
       "recharge_plans": {
-        "accuracy": 0.8684,
-        "macro_f1": 0.8657,
-        "weighted_f1": 0.8681,
-        "n_samples": 38
+        "accuracy": 0.9551,
+        "macro_f1": 0.9562,
+        "weighted_f1": 0.9551,
+        "n_samples": 245
       },
       "data_balance": {
-        "accuracy": 0.8,
-        "macro_f1": 0.8088,
-        "weighted_f1": 0.8022,
-        "n_samples": 20
+        "accuracy": 0.9789,
+        "macro_f1": 0.9717,
+        "weighted_f1": 0.9788,
+        "n_samples": 190
       },
       "roaming": {
-        "accuracy": 0.9091,
-        "macro_f1": 0.9221,
-        "weighted_f1": 0.9115,
-        "n_samples": 11
+        "accuracy": 0.9797,
+        "macro_f1": 0.9826,
+        "weighted_f1": 0.9797,
+        "n_samples": 148
       },
       "sim_activation": {
-        "accuracy": 0.7778,
-        "macro_f1": 0.7746,
-        "weighted_f1": 0.7958,
-        "n_samples": 9
+        "accuracy": 0.9524,
+        "macro_f1": 0.9442,
+        "weighted_f1": 0.9526,
+        "n_samples": 126
       },
       "mobile_app_experience": {
-        "accuracy": 0.7826,
-        "macro_f1": 0.7377,
-        "weighted_f1": 0.7771,
-        "n_samples": 23
+        "accuracy": 0.9551,
+        "macro_f1": 0.9523,
+        "weighted_f1": 0.9553,
+        "n_samples": 178
       },
       "ott_bundle_services": {
-        "accuracy": 0.6552,
-        "macro_f1": 0.6521,
-        "weighted_f1": 0.6641,
-        "n_samples": 29
+        "accuracy": 0.9944,
+        "macro_f1": 0.9931,
+        "weighted_f1": 0.9943,
+        "n_samples": 177
       },
       "pricing": {
-        "accuracy": 0.76,
-        "macro_f1": 0.7468,
-        "weighted_f1": 0.7577,
-        "n_samples": 25
+        "accuracy": 0.9798,
+        "macro_f1": 0.9764,
+        "weighted_f1": 0.9795,
+        "n_samples": 247
       },
       "value_for_money": {
-        "accuracy": 0.7586,
-        "macro_f1": 0.7208,
-        "weighted_f1": 0.7534,
-        "n_samples": 29
+        "accuracy": 0.9764,
+        "macro_f1": 0.9736,
+        "weighted_f1": 0.9765,
+        "n_samples": 212
       },
       "data_validity": {
-        "accuracy": 0.9167,
-        "macro_f1": 0.8857,
-        "weighted_f1": 0.9143,
-        "n_samples": 12
+        "accuracy": 0.96,
+        "macro_f1": 0.9555,
+        "weighted_f1": 0.9602,
+        "n_samples": 150
       },
       "5g_experience": {
-        "accuracy": 0.8824,
-        "macro_f1": 0.7778,
-        "weighted_f1": 0.8824,
-        "n_samples": 17
+        "accuracy": 0.9706,
+        "macro_f1": 0.9662,
+        "weighted_f1": 0.9705,
+        "n_samples": 170
       },
       "_overall": {
-        "accuracy": 0.8062,
-        "macro_f1": 0.797,
-        "weighted_f1": 0.8056,
-        "n_samples": 356
+        "accuracy": 0.9746,
+        "macro_f1": 0.9735,
+        "weighted_f1": 0.9746,
+        "n_samples": 3464
       }
     },
     "test": {
       "network_coverage": {
-        "accuracy": 0.75,
-        "macro_f1": 0.7227,
-        "weighted_f1": 0.7462,
-        "n_samples": 32
+        "accuracy": 0.9923,
+        "macro_f1": 0.9937,
+        "weighted_f1": 0.9923,
+        "n_samples": 388
       },
       "internet_speed": {
-        "accuracy": 0.8387,
-        "macro_f1": 0.826,
-        "weighted_f1": 0.8336,
-        "n_samples": 31
+        "accuracy": 0.9802,
+        "macro_f1": 0.9811,
+        "weighted_f1": 0.9802,
+        "n_samples": 505
       },
       "call_quality": {
-        "accuracy": 0.8095,
-        "macro_f1": 0.7887,
-        "weighted_f1": 0.8108,
-        "n_samples": 21
+        "accuracy": 0.9813,
+        "macro_f1": 0.9839,
+        "weighted_f1": 0.9813,
+        "n_samples": 214
       },
       "customer_support": {
-        "accuracy": 0.875,
-        "macro_f1": 0.7628,
-        "weighted_f1": 0.8611,
-        "n_samples": 32
+        "accuracy": 0.996,
+        "macro_f1": 0.9949,
+        "weighted_f1": 0.996,
+        "n_samples": 248
       },
       "billing": {
-        "accuracy": 0.95,
-        "macro_f1": 0.9602,
-        "weighted_f1": 0.9496,
-        "n_samples": 20
+        "accuracy": 0.9921,
+        "macro_f1": 0.9885,
+        "weighted_f1": 0.992,
+        "n_samples": 253
       },
       "recharge_plans": {
-        "accuracy": 0.8627,
-        "macro_f1": 0.8531,
-        "weighted_f1": 0.8619,
-        "n_samples": 51
+        "accuracy": 0.9612,
+        "macro_f1": 0.961,
+        "weighted_f1": 0.9612,
+        "n_samples": 258
       },
       "data_balance": {
-        "accuracy": 0.8333,
-        "macro_f1": 0.85,
-        "weighted_f1": 0.8292,
-        "n_samples": 12
+        "accuracy": 0.9905,
+        "macro_f1": 0.9902,
+        "weighted_f1": 0.9905,
+        "n_samples": 211
       },
       "roaming": {
-        "accuracy": 0.8,
-        "macro_f1": 0.8333,
-        "weighted_f1": 0.8,
-        "n_samples": 10
+        "accuracy": 0.9839,
+        "macro_f1": 0.9867,
+        "weighted_f1": 0.9839,
+        "n_samples": 124
       },
       "sim_activation": {
-        "accuracy": 1.0,
-        "macro_f1": 1.0,
-        "weighted_f1": 1.0,
-        "n_samples": 6
+        "accuracy": 0.9796,
+        "macro_f1": 0.9823,
+        "weighted_f1": 0.9797,
+        "n_samples": 147
       },
       "mobile_app_experience": {
-        "accuracy": 0.8421,
-        "macro_f1": 0.8381,
-        "weighted_f1": 0.8421,
-        "n_samples": 19
+        "accuracy": 0.954,
+        "macro_f1": 0.9408,
+        "weighted_f1": 0.9538,
+        "n_samples": 174
       },
       "ott_bundle_services": {
-        "accuracy": 0.8824,
-        "macro_f1": 0.8746,
-        "weighted_f1": 0.8787,
-        "n_samples": 17
+        "accuracy": 0.9724,
+        "macro_f1": 0.9745,
+        "weighted_f1": 0.9724,
+        "n_samples": 145
       },
       "pricing": {
-        "accuracy": 0.8387,
-        "macro_f1": 0.8283,
-        "weighted_f1": 0.8339,
-        "n_samples": 31
+        "accuracy": 0.9897,
+        "macro_f1": 0.99,
+        "weighted_f1": 0.9897,
+        "n_samples": 290
       },
       "value_for_money": {
-        "accuracy": 0.8846,
-        "macro_f1": 0.8045,
-        "weighted_f1": 0.869,
-        "n_samples": 26
+        "accuracy": 0.9697,
+        "macro_f1": 0.9694,
+        "weighted_f1": 0.9697,
+        "n_samples": 198
       },
       "data_validity": {
-        "accuracy": 0.9286,
-        "macro_f1": 0.9221,
-        "weighted_f1": 0.9267,
-        "n_samples": 14
+        "accuracy": 0.9463,
+        "macro_f1": 0.9493,
+        "weighted_f1": 0.9465,
+        "n_samples": 149
       },
       "5g_experience": {
-        "accuracy": 0.6842,
-        "macro_f1": 0.5683,
-        "weighted_f1": 0.6782,
-        "n_samples": 19
+        "accuracy": 0.9822,
+        "macro_f1": 0.9805,
+        "weighted_f1": 0.9822,
+        "n_samples": 169
       },
       "_overall": {
-        "accuracy": 0.8446,
-        "macro_f1": 0.8339,
-        "weighted_f1": 0.8424,
-        "n_samples": 341
+        "accuracy": 0.9801,
+        "macro_f1": 0.9803,
+        "weighted_f1": 0.9801,
+        "n_samples": 3473
       }
     }
   },
   "inference_timing": {
-    "single_sample_ms": 2.4408,
-    "full_test_set_ms": 2.8818,
-    "per_sample_avg_ms": 0.0192,
-    "test_set_size": 150
+    "single_sample_ms": 2.369,
+    "full_test_set_ms": 4.8137,
+    "per_sample_avg_ms": 0.0022,
+    "test_set_size": 2159
   }
 }

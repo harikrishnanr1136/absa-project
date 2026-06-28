@@ -1,27 +1,27 @@
 {
   "model": "Model 1 \u2014 Logistic Regression (OneVsRest, Aspect Detection)",
   "training": {
-    "time_seconds": 3.455,
-    "peak_ram_mb": 0.955,
-    "train_samples": 700,
-    "features": 2432,
+    "time_seconds": 3.756,
+    "peak_ram_mb": 4.641,
+    "train_samples": 10075,
+    "features": 10000,
     "classes": 15
   },
   "inference": {
-    "single_sample_ms": 2.32,
-    "full_test_set_ms": 2.6728,
-    "per_sample_avg_ms": 0.0178,
-    "test_set_size": 150,
-    "peak_ram_mb": 0.026
+    "single_sample_ms": 2.2502,
+    "full_test_set_ms": 5.3933,
+    "per_sample_avg_ms": 0.0025,
+    "test_set_size": 2159,
+    "peak_ram_mb": 0.319
   },
   "model_size": {
     "files": {
-      "aspect_detector_lr.pkl": 0.2868,
-      "tfidf_vectorizer.joblib": 0.0928,
+      "aspect_detector_lr.pkl": 1.1529,
+      "tfidf_vectorizer.joblib": 0.403,
       "mlb.pkl": 0.001,
       "preprocessing_pipeline.joblib": 0.0005
     },
-    "total_mb": 0.3811
+    "total_mb": 1.5574
   },
   "hardware": {
     "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",

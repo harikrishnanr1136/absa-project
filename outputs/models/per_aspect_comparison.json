@@ -2,137 +2,124 @@
   "per_aspect_f1": [
     {
       "aspect": "network_coverage",
-      "model1_f1": 0.8136,
-      "model2_f1": 0.7838,
-      "winner": "Model 1",
-      "delta": -0.0298
+      "model1_f1": 0.9673,
+      "model2_f1": 0.9885,
+      "winner": "Model 2",
+      "delta": 0.0212
     },
     {
       "aspect": "internet_speed",
-      "model1_f1": 0.8852,
-      "model2_f1": 0.6923,
-      "winner": "Model 1",
-      "delta": -0.1929
+      "model1_f1": 0.9694,
+      "model2_f1": 0.9892,
+      "winner": "Model 2",
+      "delta": 0.0198
     },
     {
       "aspect": "call_quality",
-      "model1_f1": 0.9231,
-      "model2_f1": 0.717,
-      "winner": "Model 1",
-      "delta": -0.2061
+      "model1_f1": 0.9682,
+      "model2_f1": 0.9794,
+      "winner": "Model 2",
+      "delta": 0.0112
     },
     {
       "aspect": "customer_support",
-      "model1_f1": 0.9841,
-      "model2_f1": 0.8169,
-      "winner": "Model 1",
-      "delta": -0.1672
+      "model1_f1": 0.9899,
+      "model2_f1": 0.998,
+      "winner": "Model 2",
+      "delta": 0.0081
     },
     {
       "aspect": "billing",
-      "model1_f1": 0.9189,
-      "model2_f1": 0.75,
-      "winner": "Model 1",
-      "delta": -0.1689
+      "model1_f1": 0.9729,
+      "model2_f1": 0.9863,
+      "winner": "Model 2",
+      "delta": 0.0134
     },
     {
       "aspect": "recharge_plans",
-      "model1_f1": 0.8333,
-      "model2_f1": 0.7523,
-      "winner": "Model 1",
-      "delta": -0.081
+      "model1_f1": 0.9144,
+      "model2_f1": 0.9866,
+      "winner": "Model 2",
+      "delta": 0.0722
     },
     {
       "aspect": "data_balance",
-      "model1_f1": 1.0,
-      "model2_f1": 0.8571,
-      "winner": "Model 1",
-      "delta": -0.1429
+      "model1_f1": 0.9375,
+      "model2_f1": 0.9791,
+      "winner": "Model 2",
+      "delta": 0.0416
     },
     {
       "aspect": "roaming",
-      "model1_f1": 1.0,
+      "model1_f1": 0.996,
       "model2_f1": 1.0,
+      "winner": "Model 2",
+      "delta": 0.004
+    },
+    {
+      "aspect": "sim_activation",
+      "model1_f1": 0.9966,
+      "model2_f1": 0.9966,
       "winner": "Tie",
       "delta": 0.0
     },
     {
-      "aspect": "sim_activation",
-      "model1_f1": 0.9231,
-      "model2_f1": 0.6667,
-      "winner": "Model 1",
-      "delta": -0.2564
-    },
-    {
       "aspect": "mobile_app_experience",
-      "model1_f1": 0.9474,
-      "model2_f1": 0.8,
-      "winner": "Model 1",
-      "delta": -0.1474
+      "model1_f1": 0.9913,
+      "model2_f1": 0.9971,
+      "winner": "Model 2",
+      "delta": 0.0058
     },
     {
       "aspect": "ott_bundle_services",
-      "model1_f1": 0.9697,
-      "model2_f1": 0.7111,
-      "winner": "Model 1",
-      "delta": -0.2586
+      "model1_f1": 0.9796,
+      "model2_f1": 0.9864,
+      "winner": "Model 2",
+      "delta": 0.0068
     },
     {
       "aspect": "pricing",
-      "model1_f1": 0.8182,
-      "model2_f1": 0.7209,
-      "winner": "Model 1",
-      "delta": -0.0973
+      "model1_f1": 0.8997,
+      "model2_f1": 0.9795,
+      "winner": "Model 2",
+      "delta": 0.0798
     },
     {
       "aspect": "value_for_money",
-      "model1_f1": 0.8364,
-      "model2_f1": 0.6316,
-      "winner": "Model 1",
-      "delta": -0.2048
+      "model1_f1": 0.9369,
+      "model2_f1": 0.9752,
+      "winner": "Model 2",
+      "delta": 0.0383
     },
     {
       "aspect": "data_validity",
-      "model1_f1": 0.8571,
-      "model2_f1": 0.6842,
-      "winner": "Model 1",
-      "delta": -0.1729
+      "model1_f1": 0.9577,
+      "model2_f1": 0.9868,
+      "winner": "Model 2",
+      "delta": 0.0291
     },
     {
       "aspect": "5g_experience",
-      "model1_f1": 0.973,
-      "model2_f1": 0.9268,
+      "model1_f1": 1.0,
+      "model2_f1": 0.9941,
       "winner": "Model 1",
-      "delta": -0.0462
+      "delta": -0.0059
     },
     {
       "aspect": "AVERAGE",
-      "model1_f1": 0.9122,
-      "model2_f1": 0.7674,
-      "winner": "Model 1",
-      "delta": -0.1448
+      "model1_f1": 0.9652,
+      "model2_f1": 0.9882,
+      "winner": "Model 2",
+      "delta": 0.023
     }
   ],
   "analysis": {
     "model2_wins_big": [],
     "model1_wins": [
-      "network_coverage",
-      "internet_speed",
-      "call_quality",
-      "customer_support",
-      "billing",
-      "recharge_plans",
-      "data_balance",
-      "sim_activation",
-      "mobile_app_experience",
-      "ott_bundle_services",
-      "pricing",
-      "value_for_money",
-      "data_validity",
       "5g_experience"
     ],
     "both_below_threshold": [],
-    "best_aspect": "data_balance",
-    "worst_aspect": "network_coverage"
+    "best_aspect": "roaming",
+    "worst_aspect": "value_for_money"
   }
 }

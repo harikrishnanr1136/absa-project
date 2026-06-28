@@ -33,7 +33,7 @@ A pipeline approach (detect aspects → classify sentiment) was chosen over end-
 | Interpretability | Each subtask is independently debuggable | Black-box joint prediction |
 | Error isolation | Can identify if errors are in detection or sentiment | Cannot separate error sources |
 | Modularity | Can upgrade one component without retraining the other | Must retrain entire model |
-| Data requirement | Works with 1,000 samples via decomposition | Requires 5,000+ samples for joint learning |
+| Data requirement | Works with limited samples via decomposition | Requires 5,000+ samples for joint learning |
 | Complexity | Standard classification models | Requires span extraction + relation modeling |
 
 **Accepted tradeoff:** The pipeline approach may miss aspect-opinion interactions that joint models capture (e.g., "fast" near "internet" vs "fast" near "activation"). With more data, migrating to ASTE would be the natural next step.
@@ -46,8 +46,8 @@ A pipeline approach (detect aspects → classify sentiment) was chosen over end-
 
 | Factor | LLM Generation | Manual Annotation |
 |--------|---------------|-------------------|
-| Cost | $0 (Kiro subscription) | $500-2000 for 1000 samples |
-| Speed | 1000 samples in 4 hours | 2-4 weeks |
+| Cost | $0 (Kiro subscription) | $500-2000 for 14K+ samples |
+| Speed | 14,600 samples generated in batches | 2-4 weeks |
 | Consistency | Controlled distribution via prompts | High inter-annotator variance |
 | Scalability | Can generate 10K+ with same process | Linear cost increase |
 | Domain knowledge | Encoded in system prompt | Requires trained annotators |
@@ -135,7 +135,7 @@ Unigrams alone miss critical sentiment-bearing phrases:
 - "very slow" → captures intensifier + adjective pattern
 - "no signal" → captures negation + symptom
 
-Bigrams (n=2) capture these phrases while keeping vocabulary manageable. Trigrams (n=3) were not used because they would explode vocabulary size with only 1000 training samples, leading to severe sparsity.
+Bigrams (n=2) capture these phrases while keeping vocabulary manageable. Trigrams (n=3) were not used because they would explode vocabulary size with limited training samples, leading to severe sparsity.
 
 ### Sentence embeddings: why all-MiniLM-L6-v2
 
@@ -162,7 +162,7 @@ Comparing both validates which approach is more suitable for the data size and t
 ### Why Logistic Regression as baseline
 
 - **Fast and interpretable**: Trains in 10 seconds, feature weights explain decisions
-- **Strong on small data**: With 700 training samples, LR with good features often beats neural models
+- **Strong on small data**: Fast, interpretable, strong baseline — with good TF-IDF features often competitive with neural models
 - **OneVsRest strategy**: Naturally handles multi-label by training 15 independent binary classifiers
 - **class_weight="balanced"**: Built-in handling of aspect frequency imbalance
 - **Reproducible**: Deterministic with random_state=42
@@ -196,11 +196,11 @@ Comparing both validates which approach is more suitable for the data size and t
 
 ### Early stopping: patience=2
 
-With only 700 training samples, overfitting begins early (typically epoch 2-3 for DistilBERT). Patience=2 allows one epoch of no improvement before stopping — balances between premature stopping and memorization.
+With limited per-aspect samples, overfitting risk is present (typically epoch 2-3 for DistilBERT). Patience=2 allows one epoch of no improvement before stopping — balances between premature stopping and memorization.
 
 ### Learning rate 2e-5
 
-Standard for BERT fine-tuning (per original BERT paper). Higher rates (5e-5+) cause catastrophic forgetting of pretrained knowledge. Lower rates (1e-6) would require more epochs than our small dataset can support without overfitting.
+Standard for BERT fine-tuning (per original BERT paper). Higher rates (5e-5+) cause catastrophic forgetting of pretrained knowledge. Lower rates (1e-6) would require more epochs and risk underfitting.
 
 ### Warmup ratio 0.1
 
@@ -329,7 +329,7 @@ Every path, label list, hyperparameter, and threshold lives in one file that all
 
 2. **15 fixed aspects** may miss emerging telecom issues (e.g., eSIM problems, data privacy concerns, tower radiation worries) that real customers discuss.
 
-3. **CPU inference is slow for large batches** — processing 1000 rows takes ~8 minutes on CPU. Production deployment would benefit from GPU or model distillation.
+3. **CPU inference is slow for large batches** — processing large batches takes significant time on CPU. Production deployment would benefit from GPU or model distillation.
 
 4. **Small dataset per rare aspect** — sim_activation (72 samples) and roaming (73 samples) have significantly fewer training examples, leading to lower and less stable F1 scores for these aspects.
 

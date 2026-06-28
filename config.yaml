@@ -60,10 +60,10 @@ seed: 42
 # Feature extraction settings
 features:
   tfidf:
-    max_features: 10000
+    max_features: 15000
     ngram_range: [1, 2]
     sublinear_tf: true
-    min_df: 2
+    min_df: 3
   embedding:
     model_name: "all-MiniLM-L6-v2"
     batch_size: 64
@@ -72,11 +72,11 @@ features:
 # Deep learning training settings
 dl_training:
   model_name: "distilbert-base-uncased"
-  epochs: 5
-  batch_size: 16
+  epochs: 8
+  batch_size: 32
   learning_rate: 2.0e-5
   weight_decay: 0.01
   warmup_ratio: 0.1
   dropout: 0.3
   max_length: 128
-  early_stopping_patience: 2
+  early_stopping_patience: 3

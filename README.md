@@ -63,7 +63,7 @@ This project implements **Aspect-Based Sentiment Analysis (ABSA)** that first de
 
 | Property | Value |
 |----------|-------|
-| Total samples | 1,000 |
+| Total samples | 14,393 |
 | Aspects per sample | 1–8 (avg 2.3) |
 | Sentiment distribution | ~40% positive, ~40% negative, ~20% neutral |
 | Source channels | app_review, twitter, complaint_ticket, survey, customer_care_chat |
@@ -138,7 +138,7 @@ Return only the JSON array, nothing else.
 absa-project/
 ├── data/
 │   ├── raw/                         # Original batch JSON files
-│   ├── absa_telecom_combined.csv    # Full combined dataset (1000 rows)
+│   ├── absa_telecom_combined.csv    # Full combined dataset (14394 rows)
 │   └── telecom_absa_cleaned.csv     # Cleaned dataset
 ├── notebooks/
 │   └── evaluation_summary.ipynb     # Day 6 evaluation deliverable
@@ -233,8 +233,8 @@ The DistilBERT model files are too large for Git. Download from Google Drive:
 
 | File | Size | Link |
 |------|------|------|
-| `aspect_detector_distilbert.pt` | 253 MB | [https://drive.google.com/file/d/1bDPBysWAyPYcCDfJNwN6WD89KeL9E09j/view?usp=sharing] |
-| `sentiment_classifiers_distilbert.pt` | 3.8 GB | [https://drive.google.com/file/d/1hzAd7IagxaFD1ETJRBGGjMFH3q-Oy-vH/view?usp=sharing] |
+| `aspect_detector_distilbert.pt` | 253 MB | [https://drive.google.com/file/d/1p3Txnwg8YPnnTiNfcwxN5EaQ3h7AyTaI/view?usp=sharing] |
+| `sentiment_classifiers_distilbert.pt` | 3.8 GB | [https://drive.google.com/file/d/1bqflxLFMv7I7xO3si5Tb2G7xT-tVBCLc/view?usp=sharing] |
 
 Place both files in the `models/` directory.
 
@@ -354,22 +354,21 @@ python tests/test_batch_processing.py
 
 | Metric | Model 1 (LR+TF-IDF) | Model 2 (DistilBERT) |
 |--------|---------------------|---------------------|
-| Aspect Micro-F1 | **0.8939** | 0.7518 |
-| Aspect Macro-F1 | **0.9122** | 0.7674 |
-| Sentiment Accuracy | **0.8446** | 0.6833 |
-| Sentiment Macro-F1 | **0.8339** | 0.6651 |
-| Sentiment Weighted-F1 | **0.8424** | 0.6834 |
+| Aspect Micro-F1 | 0.9611 | **0.9876** |
+| Aspect Macro-F1 | 0.9652 | **0.9882** |
+| Sentiment Accuracy | 0.9801 | 0.9525 |
+| Sentiment Macro-F1 | **0.9803** | 0.9503 |
+| Sentiment Weighted-F1 | **0.9801** | 0.9525 |
 
 ### Hardware Comparison
 
 | Property | Model 1 | Model 2 |
 |----------|---------|---------|
-| Training time | 10.6s | ~45 min (GPU) |
-| Inference (ms/sample) | 0.05 ms | ~500 ms |
-| Model size | 0.4 MB | 253 MB |
-| Peak RAM | 0.97 MB | ~1.3 MB |
+| Training time | ~4s | ~30 min (GPU) |
+| Inference (ms/sample) | 0.003 ms | ~35 ms |
+| Model size | 1.3 MB | 253 MB |
 
-**Note:** Model 1 outperforms Model 2 on this 1,000-sample dataset. This is expected — LR excels on small datasets while DistilBERT requires 3,000+ samples to reach full potential. Model 2 is selected for production due to its architectural advantages (context understanding, negation handling, subword tokenization) that will compound with additional training data.
+**Note:** With 14,393 training samples, Model 2 (DistilBERT) outperforms Model 1 on aspect detection, confirming that transformer models benefit significantly from larger datasets. Model 1 retains a slight edge on sentiment classification due to its per-aspect TF-IDF refitting strategy. Model 2 is selected for production due to its superior aspect detection and contextual understanding.
 
 ---
 
